@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  padding: 0 50px;
+  /* border-right: 5px solid #5f6163; */
+  /* padding-left: 20px; */
+  /* background-color:#1B1F23; */
+}
+
+/* LEFT SECTION */
+.nav-left {
+  border: 2px solid blue;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+/* SEARCH */
+.search-bar input {
+  /* background-color: #1B1F23; */
+  /* color: white; */
+  height: 32px;
+  width: 300px;
+  padding: 0 10px;
+  border-radius: 14px;
+  /* border: none; */
+}
+
+/* NAV LINKS */
+.nav-links {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-left: 300px;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.549);
+  font-size: 12px;
+}
+
+.nav-link svg {
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #0a66c2;
+}
+
+.nav-links a {
+  text-decoration: none;
+  /* color: white; */
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #021426;
+}
+
+.profile-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.profile-item img {
+  width: 24px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+/* RIGHT SECTION */
+.nav-right {
+  margin-top: 10px;
+  display: flex;
+  align-items: center; 
+}
+.nav-center {
+  flex: 1; /* takes remaining space */
+  display: flex;
+  justify-content: center;
+}
+
+.right-nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.business-item {
+  padding-right: 16px;
+  margin-right: 16px;
+  /* border-right: 1px solid #5f6163; */
+}
+
+/* Business button */
+.business-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  color: rgba(0, 0, 0, 0.549);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* Icon */
+.nav-icon {
+  font-size: 24px;
+}
+
+
+.caret {
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+/* Hover effect (LinkedIn-like) */
+.business-btn:hover {
+  color: #021426;
+}
+
+/* Premium link */
+.premium-link {
+  display: flex;
+  align-items: center;  
+  color: rgba(0, 0, 0, 0.549);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.premium-link:hover {
+  color: #021426;
+}

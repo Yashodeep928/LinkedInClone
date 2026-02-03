@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F3F2F0;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid yellow;
+    height: 76%;
+    width: 25%;
+}
+
+.link{
+    text-align: center;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #0A66C2;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.help-link{
+    border: 2px solid salmon;
+    margin-top: 20px;
+}
+.title{
+    border: 2px solid green;
+    font-size: 24px;
+    /* font-weight: ; */
+    word-spacing: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo{
+   position: absolute;
+   left: 260px;
+   top: 20px;
+   border: 2px solid blue;
+   font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+input{
+    padding: 4px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.checkbox-field{
+    display: flex;
+    gap: 10px;
+}
+
+.terms{
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+.terms a{
+    color: #0A66C2;
+    text-decoration: none;
+    font-weight: 600;
+}
+.link a{
+    color: #0A66C2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.help-link a{
+    color: #0A66C2;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+}
