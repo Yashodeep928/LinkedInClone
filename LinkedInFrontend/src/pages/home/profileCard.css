@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid purple;
+    display: flex;
+    height: 100vh;
+    
+}
+
+
+.profile-card{
+    padding: 20px;
+    border: 2px solid red;
+    width:250px;
+    height: 50%;
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 15px;
+    border: dotted;
+    padding: 5px;
+    padding-right: 115px;
+    width: 200px;
+}
+.profile-info{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+    margin-top: 15px;
+}
+
+.profile-info address {
+  margin-top: 4px;
+  font-style: normal;
+  color: gray;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+

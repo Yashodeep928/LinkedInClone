@@ -1,6 +1,8 @@
 // import Footer from './components/Footer/Footer'
 
-import Signup from "./pages/signup/signup"
+import ProfileCard from "./pages/home/profileCard"
+
+// import Signup from "./pages/signup/signup"
 
 // import Navbar from './components/Navbar/Navbar'
 function App() {
@@ -10,7 +12,9 @@ function App() {
       {/* <Navbar/> */}
       {/* <Footer/> */}
       
-      <Signup/>
+      {/* <Signup/> */}
+
+      <ProfileCard/>
       
 
     </>
