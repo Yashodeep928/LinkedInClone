@@ -19,6 +19,7 @@
 .profile-card{
     padding: 20px;
     border: 2px solid red;
+    border-radius: 5%;
     width:250px;
     height: 50%;
 }
@@ -32,9 +33,9 @@
     width: 200px;
 }
 .profile-info{
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
     margin-top: 15px;
 }
 
@@ -49,3 +50,26 @@
     color: black;
 }
 
+.profile-wrapper {
+    margin: -20px -20px 0 -20px;
+    position:relative;
+    border-radius: 5%;
+}
+
+.profile-img {
+    position: absolute;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid rgb(192, 192, 25);
+    width: 80px; 
+    bottom: 1px;
+    left: 10px; 
+}
+
+.banner-img  {
+  /* border: 2px solid black; */
+  width: 248px;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+
+}
