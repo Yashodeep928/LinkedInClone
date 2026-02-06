@@ -1,6 +1,9 @@
 // import Footer from './components/Footer/Footer'
 
-import ProfileCard from "./pages/home/profileCard"
+import SearchBar from "./pages/home/searchBar"
+
+
+// import ProfileCard from "./pages/home/profileCard"
 
 // import Signup from "./pages/signup/signup"
 
@@ -14,7 +17,9 @@ function App() {
       
       {/* <Signup/> */}
 
-      <ProfileCard/>
+      {/* <ProfileCard/> */}
+
+    <SearchBar/>
       
 
     </>
