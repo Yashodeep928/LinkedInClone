@@ -15,9 +15,9 @@ function SearchBar ()
 
             <div className="uppersection">
 
-                <img src="/src/assets/Yashodeep.JPG" alt="" />
+                <img className='image' src="/src/assets/Yashodeep.JPG" alt="" />
 
-                <button >Start a Post</button>
+                <button className='postbtn'> <span> Start a Post </span> </button>
             </div>
 
             <div className="lowersection">

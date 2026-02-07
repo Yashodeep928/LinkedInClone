@@ -9,9 +9,53 @@
     border: 2px solid red;
     height: 100vh;
     width: 100vw;
+    gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+   
+.uppersection{
+    display: flex;
+    /* border: 2px solid red; */
+    gap: 10px;
+}
 
+.image{
+    border: 1px solid yellow;
+    margin-top: 2px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.postbtn{
+    margin-top: 5px;
+    height: 35px;
+    padding: 9px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.postbtn span{
+    float:left
+}
+
+.lowersection{
+    gap: 2px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green;     */
+}
+
+.btn{
+    cursor: pointer;
+    gap: 5px;
+    padding: 2px;
+    width: 90px;
+}
+.icon{
+    margin-right: 10px;
+}
