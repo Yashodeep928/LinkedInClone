@@ -1,6 +1,8 @@
 // import Footer from './components/Footer/Footer'
 
-import SearchBar from "./pages/home/searchBar"
+import Message from "./components/Messaging/Message"
+
+// import SearchBar from "./pages/home/searchBar"
 
 
 // import ProfileCard from "./pages/home/profileCard"
@@ -19,7 +21,9 @@ function App() {
 
       {/* <ProfileCard/> */}
 
-    <SearchBar/>
+    {/* <SearchBar/> */}
+
+    <Message/>
       
 
     </>
