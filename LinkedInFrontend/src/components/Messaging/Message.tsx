@@ -1,14 +1,18 @@
 
 import "./Message.css"
 import { FaCaretDown, FaCaretUp,FaEdit, FaEllipsisH } from 'react-icons/fa';
-import { useState } from "react";
+import { useState ,useRef } from "react";
 
 function Message (){
 
-
+    const contentRef = useRef(null)
     const [open,setOpen] = useState(false);
+    const [openDialog,setopenDialog] = useState(false)
 
+  const Dialog = ()=>{
+    setopenDialog(!openDialog)
 
+  }
     const togglebtn = ()=>{
          setOpen(!open)        
     }
@@ -29,16 +33,27 @@ function Message (){
                     <div className="right">
 
                         <button className="btn"><FaEllipsisH/></button>
-                        <button className="btn"><FaEdit/></button>
+                        <button onClick={Dialog} className="btn"><FaEdit/></button>
                         <button onClick={togglebtn}className="btn">{open ? <FaCaretUp /> : <FaCaretDown />}</button>
 
                     </div>
                 </div>
 
-                
-                       <div className={`secondHeader ${open ? "active" : ""}`}>
+
+                       <div ref={contentRef} className={`secondHeader ${open ? "active" : ""}`}>
                        <input placeholder="Search messages" type="search" />
                         </div>
+
+
+                        { openDialog &&
+                        <div ref={contentRef} className="dialogbox">
+
+                           <div className="header">
+                            <h3>New Messages</h3>
+                           </div>
+
+                        </div>
+                        }
 
                </div>
 
