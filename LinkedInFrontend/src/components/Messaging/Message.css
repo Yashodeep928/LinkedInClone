@@ -79,6 +79,11 @@ padding: 15px;
     width: 200px;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;   
+}
+
 
 
 

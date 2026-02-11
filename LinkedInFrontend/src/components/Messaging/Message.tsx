@@ -1,6 +1,8 @@
 
 import "./Message.css"
-import { FaCaretDown, FaCaretUp,FaEdit, FaEllipsisH } from 'react-icons/fa';
+import { FaCaretDown, FaCaretUp,FaEdit, FaEllipsisH, FaTimes} from 'react-icons/fa';
+import { FiZoomIn, FiZoomOut } from 'react-icons/fi';
+
 import { useState ,useRef } from "react";
 
 function Message (){
@@ -50,6 +52,9 @@ function Message (){
 
                            <div className="header">
                             <h3>New Messages</h3>
+
+                            <span><FiZoomIn/></span>
+                            <span>< FaTimes/></span>
                            </div>
 
                         </div>
