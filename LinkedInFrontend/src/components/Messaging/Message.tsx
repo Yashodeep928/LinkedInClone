@@ -52,11 +52,25 @@ function Message (){
 
                            <div className="header">
                             <h3>New Messages</h3>
-
+                                
+                           <div className="icons">
                             <span><FiZoomIn/></span>
-                            <span>< FaTimes/></span>
+                            <span><FaTimes/></span>
+                           </div>
+                            
+                           </div>
+                           <div className="Searchbar">
+                           <input type="Searchbar" placeholder="Type a name or multiple names" />
+
                            </div>
 
+                        <div className="anotherhead">
+                            <h3>Suggested</h3>
+                        </div>      
+                           <div className="chats">
+
+                           </div>
+                           
                         </div>
                         }
 

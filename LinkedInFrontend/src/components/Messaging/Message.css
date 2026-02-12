@@ -46,11 +46,11 @@
 }
 
 .secondHeader {
-display: flex;
-/* flex-direction: column; */
-align-items: center;
-justify-content: center;
-padding: 15px;
+   display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
   border: 2px solid purple;
   width: 300px;
   max-height: 0;
@@ -67,22 +67,62 @@ padding: 15px;
 .secondHeader input {
     width: 200px;
 }
-
-
 .dialogbox{
     position: absolute;
-    left: 353px;
+    left: 287px;
     display: flex;
     flex-direction: column;
-    border: 2px solid purple;
+    border: 1px solid grey;
+    border-radius: 20px;
     height: 500px;
-    width: 200px;
+    width: 300px;
 }
 
 .header{
+    padding: 10px;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+
 }
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.Searchbar{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+.Searchbar input{
+    border: none;
+    width: 250px;
+    padding: 10px;
+}
+
+.Searchbar input:hover{
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.Searchbar input:focus{
+ border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.anotherhead{
+margin: 5px 0 0 15px;
+}
+.chats{
+
+}
+
+
+
+
+
+
+
 
 
 
