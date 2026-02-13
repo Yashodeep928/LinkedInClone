@@ -110,15 +110,51 @@
   border-radius: 10px;
 }
 
-.anotherhead{
-margin: 5px 0 0 15px;
+.closeBtn{
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
+
+.suggested-container{
+margin: 5px 0 0 10px;
+}
+
+
+
+
+/* 
 .chats{
+    border: 2px solid red;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+} */
 
+.suggested-list{
+   
+   list-style: none;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid purple; */
+    
+}
+.suggested-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #2c2f36;
 }
 
-
-
+.listimage{
+    width: 45px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    
+}
 
 
 

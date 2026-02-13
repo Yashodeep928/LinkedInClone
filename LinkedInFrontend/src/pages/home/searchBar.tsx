@@ -4,10 +4,7 @@ import { FaVideo,FaImage } from 'react-icons/fa';
 import { MdArticle } from "react-icons/md";
 
 function SearchBar ()
-
-
 {
-
     return(
         <>
 
@@ -17,7 +14,7 @@ function SearchBar ()
 
                 <img className='image' src="/src/assets/Yashodeep.JPG" alt="" />
 
-                <button className='postbtn'> <span> Start a Post </span> </button>
+                <button className='postbtn'><span>Start a Post</span> </button>
             </div>
 
             <div className="lowersection">
@@ -33,9 +30,7 @@ function SearchBar ()
              <button className='btn'><span className='icon'><MdArticle/></span> Article</button>
 
             </div>
-        </div>
-
-        
+        </div>       
         </>
     )
 

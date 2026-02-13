@@ -19,6 +19,21 @@ function Message (){
          setOpen(!open)        
     }
 
+    const dummyData = [
+  {
+    id: 1,
+    name: "Nidhi Pimpalkar",
+    title: "Junior Software Developer | Building Production-Grade Systems",
+    image: "image"
+  },
+  {
+    id: 2,
+    name: "Onkar Budrukkar",
+    title: "Software Engineer at Zensar Technologies",
+    image: "image"
+  }
+];
+
     return(
         <>
            
@@ -51,11 +66,11 @@ function Message (){
                         <div ref={contentRef} className="dialogbox">
 
                            <div className="header">
-                            <h3>New Messages</h3>
+                            <h4>New Messages</h4>
                                 
                            <div className="icons">
                             <span><FiZoomIn/></span>
-                            <span><FaTimes/></span>
+                            <button onClick={()=> setopenDialog(false)} className="closeBtn"><span><FaTimes/></span></button>
                            </div>
                             
                            </div>
@@ -64,12 +79,37 @@ function Message (){
 
                            </div>
 
-                        <div className="anotherhead">
+                        <div className="suggested-container">
                             <h3>Suggested</h3>
-                        </div>      
-                           <div className="chats">
+                        </div>   
+                            <ul className="suggested-list">
 
-                           </div>
+
+                                {
+                                    dummyData.map((person)=>(
+                                   <li className="suggested-item">
+
+                                  <div className="listimage">
+                                    {person.image}
+                                  </div>
+
+                                  <div className="details">
+                                    {person.name}
+                                    {person.title}
+                                  </div>
+                                   
+                                    
+                                    </li>  
+                                        
+                                    ))
+
+                                }
+                     
+                              
+                            </ul>
+
+                            
+
                            
                         </div>
                         }
