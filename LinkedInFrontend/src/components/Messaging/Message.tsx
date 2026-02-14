@@ -1,8 +1,7 @@
 
 import "./Message.css"
 import { FaCaretDown, FaCaretUp,FaEdit, FaEllipsisH, FaTimes} from 'react-icons/fa';
-import { FiZoomIn, FiZoomOut } from 'react-icons/fi';
-
+import { FiZoomIn } from 'react-icons/fi';
 import { useState ,useRef } from "react";
 
 function Message (){
@@ -10,6 +9,7 @@ function Message (){
     const contentRef = useRef(null)
     const [open,setOpen] = useState(false);
     const [openDialog,setopenDialog] = useState(false)
+    const [query,setquery] = useState("")
 
   const Dialog = ()=>{
     setopenDialog(!openDialog)
@@ -19,7 +19,7 @@ function Message (){
          setOpen(!open)        
     }
 
-    const dummyData = [
+  const dummyData = [
   {
     id: 1,
     name: "Nidhi Pimpalkar",
@@ -31,8 +31,73 @@ function Message (){
     name: "Onkar Budrukkar",
     title: "Software Engineer at Zensar Technologies",
     image: "image"
+  },
+  {
+    id: 3,
+    name: "Aarav Mehta",
+    title: "Frontend Developer | React & UI Specialist",
+    image: "image"
+  },
+  {
+    id: 4,
+    name: "Ishita Sharma",
+    title: "Backend Developer | Node.js & Microservices",
+    image: "image"
+  },
+  {
+    id: 5,
+    name: "Rohan Deshmukh",
+    title: "Full Stack Developer | MERN Stack",
+    image: "image"
+  },
+  {
+    id: 6,
+    name: "Sneha Kulkarni",
+    title: "UI/UX Designer | Figma & Design Systems",
+    image: "image"
+  },
+  {
+    id: 7,
+    name: "Aditya Patil",
+    title: "DevOps Engineer | AWS & CI/CD",
+    image: "image"
+  },
+  {
+    id: 8,
+    name: "Priya Verma",
+    title: "Data Analyst | SQL & Power BI",
+    image: "image"
+  },
+  {
+    id: 9,
+    name: "Kunal Joshi",
+    title: "Mobile App Developer | React Native",
+    image: "image"
+  },
+  {
+    id: 10,
+    name: "Meera Nair",
+    title: "Software Engineer | Java & Spring Boot",
+    image: "image"
+  },
+  {
+    id: 11,
+    name: "Rahul Kapoor",
+    title: "Cloud Engineer | Azure & Kubernetes",
+    image: "image"
+  },
+  {
+    id: 12,
+    name: "Ananya Gupta",
+    title: "QA Engineer | Automation Testing",
+    image: "image"
   }
 ];
+
+
+const filterData = dummyData.filter((person)=>
+  person.name.toLowerCase().includes(query.trim().toLowerCase())
+)
 
     return(
         <>
@@ -62,7 +127,7 @@ function Message (){
                         </div>
 
 
-                        { openDialog &&
+                        {openDialog &&
                         <div ref={contentRef} className="dialogbox">
 
                            <div className="header">
@@ -75,7 +140,7 @@ function Message (){
                             
                            </div>
                            <div className="Searchbar">
-                           <input type="Searchbar" placeholder="Type a name or multiple names" />
+                           <input  value={query} onChange={(e)=> setquery(e.target.value) }  type="Searchbar" placeholder="Type a name or multiple names" />
 
                            </div>
 
@@ -86,8 +151,8 @@ function Message (){
 
 
                                 {
-                                    dummyData.map((person)=>(
-                                   <li className="suggested-item">
+                                  filterData.map((person)=>(
+                                   <li key={person.id} className="suggested-item">
 
                                   <div className="listimage">
                                     {person.image}
@@ -96,9 +161,7 @@ function Message (){
                                   <div className="details">
                                     {person.name}
                                     {person.title}
-                                  </div>
-                                   
-                                    
+                                  </div> 
                                     </li>  
                                         
                                     ))
