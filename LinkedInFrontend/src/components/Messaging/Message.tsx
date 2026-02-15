@@ -2,22 +2,7 @@
 import "./Message.css"
 import { FaCaretDown, FaCaretUp,FaEdit, FaEllipsisH, FaTimes} from 'react-icons/fa';
 import { FiZoomIn } from 'react-icons/fi';
-import { useState ,useRef } from "react";
-
-function Message (){
-
-    const contentRef = useRef(null)
-    const [open,setOpen] = useState(false);
-    const [openDialog,setopenDialog] = useState(false)
-    const [query,setquery] = useState("")
-
-  const Dialog = ()=>{
-    setopenDialog(!openDialog)
-
-  }
-    const togglebtn = ()=>{
-         setOpen(!open)        
-    }
+import { useState ,useRef,useEffect } from "react";
 
   const dummyData = [
   {
@@ -91,13 +76,39 @@ function Message (){
     name: "Ananya Gupta",
     title: "QA Engineer | Automation Testing",
     image: "image"
-  }
+  },
+  
 ];
 
+function Message (){
 
-const filterData = dummyData.filter((person)=>
+    const contentRef = useRef(null)
+    const [open,setOpen] = useState(false);
+    const [openDialog,setopenDialog] = useState(false)
+    const [query,setquery] = useState("")
+    const [filteredData, setFilteredData] = useState(dummyData);
+
+
+  const Dialog = ()=>{
+    setopenDialog(!openDialog)
+
+  }
+    const togglebtn = ()=>{
+     setOpen(!open)        
+    }
+
+useEffect(()=>{
+  const timer = setTimeout(() => {
+  const result = dummyData.filter((person)=>
   person.name.toLowerCase().includes(query.trim().toLowerCase())
-)
+)  
+setFilteredData(result) 
+  }, 5000);
+
+  return ()=> clearTimeout(timer)
+
+},[query])
+
 
     return(
         <>
@@ -140,7 +151,7 @@ const filterData = dummyData.filter((person)=>
                             
                            </div>
                            <div className="Searchbar">
-                           <input  value={query} onChange={(e)=> setquery(e.target.value) }  type="Searchbar" placeholder="Type a name or multiple names" />
+                           <input value={query} onChange={(e)=> setquery(e.target.value)}type="Searchbar" placeholder="Type a name or multiple names" />
 
                            </div>
 
@@ -151,7 +162,7 @@ const filterData = dummyData.filter((person)=>
 
 
                                 {
-                                  filterData.map((person)=>(
+                                  filteredData.map((person)=>(
                                    <li key={person.id} className="suggested-item">
 
                                   <div className="listimage">
@@ -169,11 +180,7 @@ const filterData = dummyData.filter((person)=>
                                 }
                      
                               
-                            </ul>
-
-                            
-
-                           
+                            </ul>                          
                         </div>
                         }
 

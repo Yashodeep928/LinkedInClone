@@ -3,10 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,11 +12,10 @@
     height: 100vh;
     width: 100vw;
 }
-
 .mainHeader{
     display: flex;
     justify-content: space-between;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 50px;
     width: 300px;
 }
@@ -27,8 +24,7 @@
     display: flex;
     gap: 10px;
     align-items: center ;
-    border: 2px solid rgb(34, 0, 255);
-
+    /* border: 2px solid rgb(34, 0, 255); */
 }
 
 .image{
@@ -42,16 +38,15 @@
     gap: 10px;
     align-items: center ;
     padding: 10px;
-    border: 2px solid rgb(145, 145, 10);
+    /* border: 2px solid rgb(145, 145, 10); */
 }
 
 .secondHeader {
-   display: flex;
-  /* flex-direction: column; */
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   width: 300px;
   max-height: 0;
   opacity: 0;
@@ -83,7 +78,6 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid grey;
-
 }
 
 .icons{
@@ -106,7 +100,7 @@
   border-radius: 10px;
 }
 .Searchbar input:focus{
- border: 1px solid grey;
+  border: 1px solid grey;
   border-radius: 10px;
 }
 
@@ -117,27 +111,14 @@
 }
 
 .suggested-container{
-margin: 5px 0 0 10px;
+  margin: 5px 0 0 10px;
 }
 
-
-
-
-/* 
-.chats{
-    border: 2px solid red;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-} */
-
-.suggested-list{
-   
-   list-style: none;
+.suggested-list{  
+  list-style: none;
   padding: 0;
   margin: 0;
-  /* border: 1px solid purple; */
-    
+  overflow-y: auto;    
 }
 .suggested-item {
   display: flex;
@@ -152,8 +133,7 @@ margin: 5px 0 0 10px;
 }
 .details{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 
