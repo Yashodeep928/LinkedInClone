@@ -1,6 +1,8 @@
 // import Footer from './components/Footer/Footer'
 
-import Message from "./components/Messaging/Message"
+import Layout from "./components/layout/layout"
+
+// import Message from "./components/Messaging/Message"
 
 // import SearchBar from "./pages/home/searchBar"
 
@@ -23,7 +25,11 @@ function App() {
 
     {/* <SearchBar/> */}
 
-    <Message/>
+    {/* <Message/> */}
+
+    <Layout/>
+
+    
       
 
     </>

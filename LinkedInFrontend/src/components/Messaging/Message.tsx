@@ -103,7 +103,7 @@ useEffect(()=>{
   person.name.toLowerCase().includes(query.trim().toLowerCase())
 )  
 setFilteredData(result) 
-  }, 5000);
+  }, 500);
 
   return ()=> clearTimeout(timer)
 

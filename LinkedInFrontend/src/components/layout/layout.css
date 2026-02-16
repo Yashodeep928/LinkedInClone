@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.layoutheader{
+    position: relative;
+    border:2px solid red;
+    height: 100vh;
+    width: 100vw;
+}
+.mainheader{
+  position: fixed;
+}
+
+.messagingSection{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}
+
+.profileSection{
+    position: absolute;
+     left:120px;
+     top: 120px;
+}

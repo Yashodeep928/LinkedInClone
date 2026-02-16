@@ -30,7 +30,7 @@ function ProfileCard (){
 
             </Link>
 
-             <button className='btn'>+ Experince</button>
+             <button className='profile-card-btn'>+ Experince</button>
 
 
         </div>

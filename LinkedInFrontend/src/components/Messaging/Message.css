@@ -1,21 +1,14 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 .container{
-    /* border: 2px solid red; */
-    display: flex;
+     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
+    width: 300px;  
 }
 .mainHeader{
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid green; */
+    border: 2px solid green;
+    border-radius: 20px;
     height: 50px;
     width: 300px;
 }
@@ -45,16 +38,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15px;
-  /* border: 2px solid purple; */
   width: 300px;
+
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  transition: max-height 0.4s ease, opacity 0.3s ease;
+
+  transition: all 0.3s ease;
 }
 
 .secondHeader.active {
+  padding: 15px;
   max-height: 60px;
   opacity: 1;
 }
@@ -64,7 +58,8 @@
 }
 .dialogbox{
     position: absolute;
-    left: 287px;
+    bottom: 20px;
+    right: 310px;
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
