@@ -12,6 +12,11 @@
  
 }
 
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
 /* LEFT SECTION */
 .nav-left {
   display: flex;
@@ -76,16 +81,17 @@
   gap: 4px;
 }
 .navbar-item img {
-  width: 24px;
+  width: 18px;
   height: 18px;
   border-radius: 50%;
 }
 
 /* RIGHT SECTION */
 .nav-right {
-  margin-top: 10px;
+  margin: 10px 10px 0px 20px;
   display: flex;
-  align-items: center; 
+  align-items: center;
+  /* border: 2px solid black;  */
 }
 .nav-center {
   flex: 1; /* takes remaining space */

@@ -20,8 +20,24 @@
     right: 20px;
 }
 
+
+
+.mainContent{
+    /* border: 2px solid purple; */
+    margin: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;   
+}
+
 .profileSection{
-    position: absolute;
-     left:120px;
-     top: 120px;
+     /* border: 2px solid purple;  */
+}
+
+.middleSection{
+    /* border: 2px solid green; */
+}
+
+.rightSection{
+    /* border: 2px solid black; */
 }

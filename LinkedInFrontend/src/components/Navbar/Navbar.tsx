@@ -16,7 +16,7 @@ function Navbar() {
           <div className="nav-left">
 
            <div className="logo">
-           <Link to="/"><img src="..." alt="LOGO" /></Link>
+           <Link to="/"><img src="/src/assets/linkedinlogo.png" alt="LOGO" /></Link>
            </div>
            
            <form className="search-bar">
@@ -60,7 +60,7 @@ function Navbar() {
   </li>
 
   <li className="navbar-item">
-    <img src="profile.jpg" alt="Profile" />
+    <img src="/src/assets/Yashodeep.JPG" alt="Profile" />
     <button className="navbar-btn">Me</button>
   </li>
 </ul>

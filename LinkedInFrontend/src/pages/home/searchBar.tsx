@@ -8,7 +8,7 @@ function SearchBar ()
     return(
         <>
 
-        <div className="container">
+        <div className="searchbar-container">
 
             <div className="uppersection">
 
@@ -19,15 +19,15 @@ function SearchBar ()
 
             <div className="lowersection">
              
-             <button className='btn'>
+             <button className='searchbar-btn'>
                 <span className='icon'><FaVideo /></span>
                 Video
                 </button>
-             <button className='btn'>
+             <button className='searchbar-btn'>
                 <span className='icon'><FaImage/></span>
                  Photo
                  </button>
-             <button className='btn'><span className='icon'><MdArticle/></span> Article</button>
+             <button className='searchbar-btn'><span className='icon'><MdArticle/></span> Article</button>
 
             </div>
         </div>       
