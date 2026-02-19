@@ -1,6 +1,15 @@
 import './NewsCard.css'
+import { useState } from 'react';
+import { FaCaretDown, FaCaretUp} from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 function NewsCard (){
+     
+    const [show,setShow] = useState(false)
+
+    const openbox = ()=>{
+        setShow(prev => !prev)
+    }
+
     return (
         <>
 
@@ -23,7 +32,33 @@ function NewsCard (){
                 <span>Adani Group bets $100B on AI</span>
                 </Link>
                 
-            <button className='news-card-showmore' >Show more</button>
+             
+                <div className= {`new-news-links-box ${show ? "active" : ""}`}>
+                <Link to="/adani" className='stories-links'>  
+                <span>Adani Group bets $100B on AI</span>
+                </Link>
+                <Link to="/adani"className='stories-links'>  
+                <span>Adani Group bets $100B on AI</span>
+                </Link>
+                <Link to="/adani"className='stories-links'>  
+                <span>Adani Group bets $100B on AI</span>
+                </Link>
+                </div>
+                
+<button onClick={openbox} className='news-card-showmore'>
+  {show ? (
+    <>
+      Show Less <FaCaretUp />
+    </>
+  ) : (
+    <>
+      Show More <FaCaretDown />
+    </>
+  )}
+</button>
+             
+
+
             </div>
 
         

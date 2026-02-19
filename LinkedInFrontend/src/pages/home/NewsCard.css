@@ -17,7 +17,7 @@
 .news-card-topstories{
     display: flex;
     flex-direction: column;
-    border: 2px solid salmon;
+    border: 2px solid rgb(114, 132, 250);
 }
 
 .stories-links{
@@ -27,5 +27,21 @@
 }
 
 .news-card-showmore{
-    
+  border: none;
+  width: 92px;
+  cursor: pointer;
+}
+.new-news-links-box{
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-news-links-box.active {
+  max-height: 300px;
+  opacity: 1;
+
 }
