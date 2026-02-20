@@ -10,14 +10,14 @@
 
 .news-card-header{
     display: flex;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     gap: 50%;
 }
 
 .news-card-topstories{
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(114, 132, 250);
+    /* border: 2px solid rgb(114, 132, 250); */
 }
 
 .stories-links{
@@ -43,5 +43,41 @@
 .new-news-links-box.active {
   max-height: 300px;
   opacity: 1;
-
 }
+
+
+.puzzlesection{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid greenyellow; */
+}
+
+.puzzleLinks{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  /* padding: 10px 15px; */
+}
+.puzzleLinks:hover {
+  background: #f9f9f9;
+}
+
+.puzzlelinkssection{
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease,opacity 0.5s ease;
+}
+.puzzlelinkssection.active{
+  max-height: 300px;
+  opacity: 1; 
+}
+.news-card-showpuzzle{
+  border: none;
+  width: 92px;
+  cursor: pointer;
+}
+
