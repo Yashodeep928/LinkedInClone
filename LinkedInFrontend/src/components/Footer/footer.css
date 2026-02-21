@@ -1,0 +1,26 @@
+.footercontainer {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    font-size: 13px;
+    max-width: 100%;     /* 🔥 instead of fixed 550px */
+    text-align: left;
+}
+
+.footercontainer a {
+    text-decoration: none;
+    color: #999;
+    white-space: nowrap;       
+}
+
+.footercontainer a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.copyright {
+    flex-basis: 100%;          
+    margin-top: 15px;
+    color: #fff;
+}

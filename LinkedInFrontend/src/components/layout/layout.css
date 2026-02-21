@@ -32,12 +32,14 @@
 
 .profileSection{
      /* border: 2px solid purple;  */
+      width: 250px;
 }
 
 .middleSection{
     /* border: 2px solid green; */
+     width: 550px;
 }
 
 .rightSection{
-    /* border: 2px solid black; */
+    flex: 0 0 100px;
 }

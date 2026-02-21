@@ -1,6 +1,7 @@
 import NewsCard from "../../pages/home/NewsCard"
 import ProfileCard from "../../pages/home/profileCard"
 import SearchBar from "../../pages/home/searchBar"
+import Footer from "../Footer/Footer"
 import Message from "../Messaging/Message"
 import Navbar from "../Navbar/Navbar"
 import "./layout.css"
@@ -32,6 +33,7 @@ function Layout (){
 
         <div className="rightSection">
             <NewsCard/>
+            <Footer/>
         </div>
 
 
