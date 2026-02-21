@@ -76,9 +76,6 @@ function NewsCard (){
       <Link to='#' className='puzzleLinks'><span><img src="" alt="" /> Zip#340</span><FaChevronRight className='arrowicon'/></Link>
 
       </div>
-
-
-
       <button className='news-card-showpuzzle' onClick={openpuzzle}>{showpuzzle ? (
     <>
       Show Less <FaCaretUp />
@@ -89,8 +86,7 @@ function NewsCard (){
     </>
   )}</button>
     
-         
-
+        
          </div>
 
         

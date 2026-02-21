@@ -1,17 +1,27 @@
 .footercontainer {
-    padding: 10px 0;
+    /* border: 2px solid red; */
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px 20px;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 11px;
     font-size: 13px;
-    max-width: 100%;     /* 🔥 instead of fixed 550px */
-    text-align: left;
+}
+
+.row {
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.indent {
+    margin-left: 10px;  
 }
 
 .footercontainer a {
     text-decoration: none;
     color: #999;
-    white-space: nowrap;       
 }
 
 .footercontainer a:hover {
@@ -20,7 +30,7 @@
 }
 
 .copyright {
-    flex-basis: 100%;          
     margin-top: 15px;
-    color: #fff;
+    font-size: 12px;
+    color: #666;
 }
