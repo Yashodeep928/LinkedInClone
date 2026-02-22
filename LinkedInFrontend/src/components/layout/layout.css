@@ -36,8 +36,11 @@
 }
 
 .middleSection{
-    /* border: 2px solid green; */
-     /* width: 550px; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(246, 1, 209); */
+    /* padding: 15px; */
+    gap: 15px;
 }
 
 .rightSection{
