@@ -1,6 +1,6 @@
 
 .contentcard{
-    /* border: 2px solid seagreen; */
+    border: 2px solid seagreen;
     border-radius: 25px;
     height: 400px;
     width: 400px;
@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    position: relative;
 }
 
 .content-card-header{
@@ -35,18 +36,15 @@
     background-color: grey;
 }
 .content-card-middle{
-    /* border: 2px solid salmon; */
-    height: 200px;
+    height: 350px;
 }
 
 .content-card-bottom{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
 }
 
 .content-card-bottom-buttons{
-    
     border-top: 1px solid grey;
     display: flex;
     justify-content: space-around;
@@ -84,4 +82,49 @@
     background-color: #ffff;
     width: 20px;
     height: 20px;
+}
+
+.modalBox {
+  position: absolute;
+  top: 45px;      
+  right: 55px;  
+  width: 220px;
+  background: #fae5e5;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e5e5;
+  z-index: 10;
+}
+
+
+.modalBoxbuttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.modalBoxbuttons li {
+  margin: 0;
+}
+
+
+.modalBoxbtn {
+  width: 100%;
+  padding: 10px 14px;
+  text-align: left;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+
+.modalBoxbtn:hover {
+  background: #f5f5f5;
+}
+
+.modalBoxbtn:active {
+  background: #eaeaea;
 }

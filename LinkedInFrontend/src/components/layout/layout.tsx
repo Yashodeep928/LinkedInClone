@@ -6,11 +6,10 @@ import Footer from "../Footer/Footer"
 import Message from "../Messaging/Message"
 import Navbar from "../Navbar/Navbar"
 import "./layout.css"
+
 function Layout (){
     return(
-    
      <>
-
      <div className="layoutheader">
 
         <div className="mainheader">
@@ -37,14 +36,7 @@ function Layout (){
             <NewsCard/>
             <Footer/>
         </div>
-
-
-
         </div>
-
-       
-
-
 
      </div>
 

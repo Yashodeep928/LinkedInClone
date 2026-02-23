@@ -1,8 +1,13 @@
 import './ContentCard.css'
 import { Ellipsis ,X } from 'lucide-react';
 import { FaThumbsUp,FaComment,FaRetweet,FaPaperPlane } from 'react-icons/fa';
+import {useState } from 'react';
 
 function ContentCard() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+          const openModal =()=> {
+            setIsModalOpen(prev => !prev);
+          }
   return (
        <>
 
@@ -12,12 +17,24 @@ function ContentCard() {
             <span>Suggested</span>
 
             <div className="content-card-buttons">
-            <button className='content-card-btn'><Ellipsis/></button>
+            <button onClick={openModal} className='content-card-btn'><Ellipsis/></button>
             <button className='content-card-btn'><X/></button>
 
+        </div>
+
+
+           {isModalOpen &&(
+            <div className="modalBox">
+              .
+              <button className='modalBoxbtn'>Save</button>
+              <button className='modalBoxbtn'>Copy link to post</button>
+              <button className='modalBoxbtn'>Embed this post</button>
+              <button className='modalBoxbtn'>Not Interested</button>
+              <button className='modalBoxbtn'>Repost post</button>
             </div>
-           
+           )}
             
+       
         </div>
 
         <div className="content-card-middle">
