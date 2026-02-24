@@ -2,28 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    background-color: rgb(252, 250, 250);
 }
-
 .layoutheader{
     position: relative;
-    border:2px solid red;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
+    padding-top: 2px;
 }
 .mainheader{
   position: fixed;
+  top: 0;
 }
-
 .messagingSection{
     position: fixed;
     bottom: 0px;
     right: 20px;
 }
-
-
-
 .mainContent{
-    /* border: 2px solid purple; */
     margin: 100px;
     height: 500px;
     display: flex;
@@ -31,15 +27,12 @@
 }
 
 .profileSection{
-     /* border: 2px solid purple;  */
       width: 250px;
 }
 
 .middleSection{
     display: flex;
     flex-direction: column;
-    /* border: 2px solid rgb(246, 1, 209); */
-    /* padding: 15px; */
     gap: 15px;
 }
 

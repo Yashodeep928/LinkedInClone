@@ -2,6 +2,7 @@ import ContentCard from "../../pages/home/ContentCard"
 import NewsCard from "../../pages/home/NewsCard"
 import ProfileCard from "../../pages/home/profileCard"
 import SearchBar from "../../pages/home/searchBar"
+import Viewers from "../../pages/home/viewers"
 import Footer from "../Footer/Footer"
 import Message from "../Messaging/Message"
 import Navbar from "../Navbar/Navbar"
@@ -24,6 +25,7 @@ function Layout (){
 
             <div className="profileSection">
             <ProfileCard/>
+            <Viewers/>
         </div>
 
 

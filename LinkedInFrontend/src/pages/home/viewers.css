@@ -1,0 +1,81 @@
+.list{
+    background-color: rgb(249, 252, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+.item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.item:hover{
+    cursor: pointer;
+    background-color: rgb(240, 247, 255);
+    border-radius: 6px;
+}
+
+.viewersbtn{
+    border: none;
+    background-color: white;
+    color: rgb(44, 147, 221);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.viewersbtn:hover{
+    text-decoration: underline;
+}
+
+.trialBox{
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.tb{
+    list-style: none;
+    font-weight: 400;
+}
+
+.trialBoxBtn{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.listBoxes{
+    margin-top: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+
+}
+.lib{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.lib:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
