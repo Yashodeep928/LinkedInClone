@@ -5,10 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 65px;
-  width: 100%;
   padding: 0 70px;
-  background-color: white;
 }
 
 .logo img {
@@ -27,17 +24,14 @@
 
 /* SEARCH */
 .search-bar input {
- 
   height: 32px;
   width: 300px;
   padding: 0 10px;
   border-radius: 14px;
-  /* border: none; */
 }
 
 /* NAV LINKS */
 .nav-links {
-  /* border: 2px solid red; */
   display: flex;
   margin-left: 300px;
   gap: 30px;
