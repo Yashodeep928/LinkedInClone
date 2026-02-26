@@ -8,7 +8,7 @@
 .card{
     display: flex;
     flex-direction: column;
-     height: 342px;    
+    height: 342px;    
      /* border: 2px solid green; */
 }
 

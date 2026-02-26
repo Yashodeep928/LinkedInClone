@@ -1,151 +1,161 @@
+/* ================= NAVBAR BASE ================= */
 
-
-/* NAVBAR */
-.navbar {
+.navbar{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;   /* center container */
   align-items: center;
-  padding: 0 70px;
+  width: 100%;
 }
 
-.logo img {
+/* ================= CONTAINER ================= */
+
+.nav-container{
+  width: 100%;
+  max-width: 1055px;      /* ↓ Decrease for MORE side spacing */
+  margin: 0 auto;         /* equal left & right spacing */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 61px;
+}
+
+/* ================= LEFT SECTION ================= */
+
+.nav-left{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* LOGO */
+.logo img{
   width: 30px;
   height: 30px;
 }
 
-/* LEFT SECTION */
-.nav-left {
-  display: flex;
-  margin-top: 10px;
-  align-items: center;
-  gap: 20px;
-  
-}
-
-/* SEARCH */
-.search-bar input {
+/* SEARCH BOX */
+.search-bar input{
   height: 32px;
   width: 300px;
   padding: 0 10px;
   border-radius: 14px;
+  border: 1px solid #ccc;
+}
+
+/* ================= RIGHT NAV ================= */
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
 }
 
 /* NAV LINKS */
-.nav-links {
-  display: flex;
-  margin-left: 300px;
-  gap: 30px;
-  list-style: none;
-}
-
-.nav-link {
+.nav-link{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.549);
+  color: rgba(0,0,0,0.55);
   font-size: 12px;
 }
 
-.nav-link svg {
+.nav-link svg{
   font-size: 20px;
 }
 
-.nav-link:hover {
+.nav-link:hover{
   color: #0a66c2;
 }
 
-.nav-links a {
-  text-decoration: none;
-  /* color: white; */
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.nav-links a:hover {
-  color: #021426;
-}
-
+/* PROFILE */
 .navbar-item{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
 }
-.navbar-item img {
+
+.navbar-item img{
   width: 18px;
   height: 18px;
   border-radius: 50%;
 }
 
-/* RIGHT SECTION */
-.nav-right {
-  margin: 10px 10px 0px 20px;
-  display: flex;
-  align-items: center;
-  /* border: 2px solid black;  */
-}
-.nav-center {
-  flex: 1; /* takes remaining space */
-  display: flex;
-  justify-content: center;
-}
-
-.right-nav-links {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-}
-
-.business-item {
-  padding-right: 16px;
-  margin-right: 16px;
-  /* border-right: 1px solid #5f6163; */
-}
-
-/* Business button */
-.business-btn {
+/* BUSINESS BUTTON */
+.business-btn{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  margin-bottom: 4px;
   background: none;
   border: none;
   cursor: pointer;
-
-  color: rgba(0, 0, 0, 0.549);
+  color: rgba(0,0,0,0.55);
   font-size: 11px;
   font-weight: 500;
 }
 
-/* Icon */
-.nav-icon {
+.nav-icon{
   font-size: 24px;
 }
 
-
-.caret {
+.caret{
   font-size: 10px;
-  margin-left: 2px;
 }
 
-/* Hover effect (LinkedIn-like) */
-.business-btn:hover {
-  color: #021426;
-}
-
-/* Premium link */
-.premium-link {
-  display: flex;
-  align-items: center;  
-  color: rgba(0, 0, 0, 0.549);
+/* PREMIUM LINK */
+.premium-link{
+  text-decoration: none;
+  color: rgba(0,0,0,0.55);
   font-size: 14px;
   font-weight: 500;
-  text-decoration: none;
 }
 
-.premium-link:hover {
+.premium-link:hover{
   color: #021426;
+}
+
+/* ================= HAMBURGER ================= */
+
+.hamburger{
+  display: none;
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ================= RESPONSIVE ================= */
+
+.nav-right.active{
+  display: flex;
+}
+
+@media (max-width: 900px){
+
+  .hamburger{
+    display: block;
+  }
+
+  .nav-right{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    flex-direction: column;
+    background: white;
+    width: 220px;
+    padding: 20px;
+    display: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    gap: 20px;
+  }
+
+  .nav-right.active{
+    display: flex;
+  }
+
+  .search-bar input{
+    width: 180px;
+  }
 }

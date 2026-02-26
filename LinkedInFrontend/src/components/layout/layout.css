@@ -9,11 +9,14 @@
   /* padding-top: 5px;   */
 }
 .mainheader{
-  /* border: 1px solid green; */
   position: fixed;
   top: 0;
-  background: white; 
+  left: 0;
+  width: 100%;
+  background: white;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
 }
 .messagingSection{
     position: fixed;
@@ -21,10 +24,10 @@
     right: 20px;
 }
 .mainContent{
-    margin: 100px;
+    margin: 100px 191px 100px 196px;
     height: 500px;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-around;   
 }
 
 .profileSection{
