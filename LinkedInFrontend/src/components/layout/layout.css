@@ -22,12 +22,15 @@
     position: fixed;
     bottom: 0px;
     right: 20px;
+    z-index: 2000;
 }
+
+
 .mainContent{
     margin: 100px 191px 100px 196px;
     height: 500px;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
 }
 
 .profileSection{
