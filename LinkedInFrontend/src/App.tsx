@@ -1,39 +1,22 @@
-// import Footer from './components/Footer/Footer'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/layout/layout";
+import Home from "./pages/home/Home";
+// import Network from "./pages/Network/ManageNetwork";
 
-import Layout from "./components/layout/layout"
-
-// import Message from "./components/Messaging/Message"
-
-// import SearchBar from "./pages/home/searchBar"
-
-
-// import ProfileCard from "./pages/home/profileCard"
-
-// import Signup from "./pages/signup/signup"
-
-// import Navbar from './components/Navbar/Navbar'
 function App() {
-
   return (
-    <>
-      {/* <Navbar/> */}
-      {/* <Footer/> */}
-      
-      {/* <Signup/> */}
+    <BrowserRouter>
+  <Routes>
 
-      {/* <ProfileCard/> */}
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+     
 
-    {/* <SearchBar/> */}
+    </Route>
 
-    {/* <Message/> */}
-
-    <Layout/>
-
-    
-      
-
-    </>
-  )
+  </Routes>
+</BrowserRouter>
+  );
 }
 
-export default App
+export default App;

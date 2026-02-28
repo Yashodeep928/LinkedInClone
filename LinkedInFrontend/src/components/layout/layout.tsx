@@ -1,51 +1,25 @@
-import ContentCard from "../../pages/home/ContentCard"
-import NewsCard from "../../pages/home/NewsCard"
-import ProfileCard from "../../pages/home/profileCard"
-import SearchBar from "../../pages/home/searchBar"
-import Viewers from "../../pages/home/viewers"
-import Footer from "../Footer/Footer"
-import Message from "../Messaging/Message"
-import Navbar from "../Navbar/Navbar"
-import "./layout.css"
+import { Outlet } from "react-router-dom";
+import Message from "../Messaging/Message";
+import Navbar from "../Navbar/Navbar";
+import "./layout.css";
 
-function Layout (){
-    return(
-     <>
-     <div className="layoutheader">
+function Layout() {
+  return (
+    <div className="layoutheader">
 
-        <div className="mainheader">
-        <Navbar/>
-        </div>
+      <div className="mainheader">
+        <Navbar />
+      </div>
 
-        <div className="messagingSection">
-            <Message/>
-        </div>
+      <div className="messagingSection">
+        <Message />
+      </div>
+      <div className="mainContent">
+        <Outlet />
+      </div>
 
-        <div className="mainContent">
-
-            <div className="profileSection">
-            <ProfileCard/>
-            <Viewers/>
-        </div>
-
-
-        <div className="middleSection">
-            <SearchBar/>
-            <ContentCard/>
-        </div>
-
-        <div className="rightSection">
-            <NewsCard/>
-            <Footer/>
-        </div>
-        </div>
-
-     </div>
-
-
-    </>
-    
-)
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;
