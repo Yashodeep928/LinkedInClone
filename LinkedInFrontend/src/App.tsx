@@ -1,21 +1,17 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/layout";
 import Home from "./pages/home/Home";
-// import Network from "./pages/Network/ManageNetwork";
+import MyNetwork from "./pages/Network/MyNetwork";
+
 
 function App() {
   return (
-    <BrowserRouter>
-  <Routes>
-
+    <Routes>
     <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} />
-     
-
+    <Route index element={<Home />} />
+    <Route path="/network" element={<MyNetwork />} />
     </Route>
-
-  </Routes>
-</BrowserRouter>
+    </Routes>
   );
 }
 

@@ -1,0 +1,7 @@
+.manage-network-box{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 250px;
+}

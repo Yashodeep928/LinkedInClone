@@ -3,6 +3,7 @@ import Viewers from "./viewers/viewers";
 import SearchBar from "./searchBar/searchBar";
 import ContentCard from "./ContentCard/ContentCard";
 import NewsCard from "./NewsCard/NewsCard";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
 
       <div className="rightSection">
         <NewsCard />
+        <Footer/>
       </div>
     </>
   );
