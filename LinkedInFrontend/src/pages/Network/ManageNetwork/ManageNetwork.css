@@ -2,6 +2,25 @@
     border: 2px solid red;
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    width: 250px;
+    /* padding: 5px; */
+    width: 300px;
+    gap: 5px;
+}
+
+.header{
+    border-bottom: 1px solid grey;
+}
+
+.list-of-items{
+    list-style: none;
+}
+
+.right{
+    /* border: 2px solid red; */
+}
+
+.item{
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 0px 9px 0px 2px;
 }
