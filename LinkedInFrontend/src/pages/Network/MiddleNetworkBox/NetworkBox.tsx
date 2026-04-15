@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom"
+import "./MiddleNetworkBox.css"
 
 function NetworkBox() {
   return (
     <>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aut ducimus consequuntur non laboriosam
-    </p>
+    <div className="box">
+      <Link to='/grow'>Grow</Link>
+      <Link to='/active'>Active</Link>
+    </div>
     </>
   )
 }
