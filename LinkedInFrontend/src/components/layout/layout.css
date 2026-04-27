@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+
+}
+
+body{
+background-color: #F4F2EE;
+
 }
 .layoutheader{
   /* border: 1px solid red; */
@@ -13,20 +19,23 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background-color: white;
   z-index: 1000;
   display: flex;
   justify-content: center;
+
 }
 .messagingSection{
     position: fixed;
     bottom: 0px;
     right: 20px;
     z-index: 2000;
+    background-color: white;
 }
 
 
 .mainContent{
+    background-color: white;
     margin: 100px 191px 100px 196px;
     height: 500px;
     display: flex;
@@ -34,15 +43,18 @@
 }
 
 .profileSection{
+    background-color: white;
       width: 250px;
 }
 
 .middleSection{
+    background-color: white;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
 .rightSection{
+    background-color: white;
     flex: 0 0 100px;
 }
