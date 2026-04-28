@@ -1,7 +1,8 @@
 
 .contentcard{
     position: relative;
-    border: 2px solid seagreen;
+    /* border: 2px solid seagreen; */
+    background-color: white;
     border-radius: 25px;
     height: 400px;
     width: 400px;

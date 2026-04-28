@@ -1,12 +1,13 @@
 .box {
-    border: 2px solid black;
-    width: 500px;
-    border-radius: 50px;
+    /* border: 2px solid black; */
+    background-color: white;
+    width: 700px;
+    border-radius: 5px;
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* 🔥 align everything to left */
-    gap: 5px;                  /* 🔥 space between buttons */
+    justify-content: flex-start; 
+    gap: 5px;                 
     padding: 0 15px;
 }
 
@@ -21,6 +22,5 @@
 }
 
 .link:hover {
-    background-color: rgb(206, 206, 206);
-    color: green;
+    color: rgb(106, 236, 106);
 }
