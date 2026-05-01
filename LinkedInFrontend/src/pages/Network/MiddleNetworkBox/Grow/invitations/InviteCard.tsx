@@ -7,14 +7,14 @@ function InviteCard() {
 
       <div className="upper-row">
         <p>Invitations <span>1</span></p>
-        <button>Show All</button>
+        <button className="btn-1">Show All</button>
       </div>
 
       <div className="down-row">
         <img src="Yashodeep.JPG" alt="Image tag" />
         <div className="btn-grp">
-           <button>Ignore</button>
-        <button>Accept</button>
+           <button className="btn-1">Ignore</button>
+        <button className="btn-2">Accept</button>
 
         </div>
        
