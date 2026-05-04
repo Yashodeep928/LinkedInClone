@@ -1,24 +1,42 @@
+.puzzle-card {
+    max-width: 700px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+
 .upper-row{
     display: flex;
    justify-content: space-between;
   border-bottom: 1px solid #e0e0e0;
     padding: 10px;
 }
-.down-row{
-     display: flex;
-   justify-content: space-between;
+  .parent-down-row{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+  }
 
+
+.down-row2{
+    display: flex;
+    border: 1px solid green;
     padding: 10px;
+    min-width: 25%;
+    gap: 5px;
 }
 
 
 .btn-1 {
     cursor: pointer;
-    background-color: white;
+    /* background-color: white; */
     color: #186FC6;
     padding: 5px 15px;
+    border: 1px solid #186FC6;
     border-radius: 20px;
-    border-color: #186FC6;
 }
 .btn-1:hover {
     background-color: #186FC6;
