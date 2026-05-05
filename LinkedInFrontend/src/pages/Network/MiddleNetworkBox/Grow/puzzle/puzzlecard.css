@@ -42,3 +42,23 @@
     background-color: #186FC6;
     color: white;
 }
+
+.Button-grp{
+    display: flex;
+    gap: 10px;
+}
+
+.Button-grp button{
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    cursor:pointer;
+    padding:5px;
+    width:30px;
+    height:30px;
+    
+}
+
+.Button-grp button:hover{
+    background-color: #e0e0e0;
+}

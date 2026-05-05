@@ -1,5 +1,22 @@
+import {useState} from "react"
 import "./puzzlecard.css"
 function PuzzleCard() {
+
+  const [index,setIndex] = useState(0)
+
+
+  const prev = () =>{
+    setIndex(index - 1)
+  }
+ 
+
+  const next = () => {
+
+    setIndex(index + 1)
+    
+    
+  }
+
   return (
     <>
    
@@ -7,9 +24,24 @@ function PuzzleCard() {
    
      <div className="upper-row">
      <p>Your morning puzzle is ready 🌄</p>
+     <div className="Button-grp">
+
+    <button onClick={prev}>&#8249;</button>
+     <button onClick={next}>&#8250;</button>
 
      </div>
+    
+     </div>
 
+
+     <div className="carousel-track"
+     style={{
+      transform: `translateX(-${index * 100}%)`
+     }}
+     
+     >
+
+    
      <div className="parent-down-row">
 
         <div className="down-row2">
@@ -87,7 +119,7 @@ function PuzzleCard() {
 
      </div>
 
-
+</div>
         
 
    </div>
