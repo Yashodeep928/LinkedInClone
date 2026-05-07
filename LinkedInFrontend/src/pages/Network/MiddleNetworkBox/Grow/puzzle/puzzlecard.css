@@ -8,57 +8,64 @@
 }
 
 
-.upper-row{
+.upper-row {
     display: flex;
-   justify-content: space-between;
-  border-bottom: 1px solid #e0e0e0;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
     padding: 10px;
 }
-  .parent-down-row{
+
+.Button-grp {
     display: flex;
-     justify-content: space-between;
-     align-items: center;
-  }
+    gap: 10px;
+}
+
+.Button-grp button {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.Button-grp button:hover {
+    background-color: #e0e0e0;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
 
 
-.down-row2{
+.slide {
+    min-width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.down-row2 {
     display: flex;
     border: 1px solid green;
     padding: 10px;
-    min-width: 15%;
-    gap: 5px;
+    gap: 10px;
+    align-items: center;
+    width: 80%;
 }
 
 
 .btn-1 {
     cursor: pointer;
-    /* background-color: white; */
     color: #186FC6;
     padding: 5px 15px;
     border: 1px solid #186FC6;
     border-radius: 20px;
+    background: white;
 }
+
 .btn-1:hover {
     background-color: #186FC6;
     color: white;
-}
-
-.Button-grp{
-    display: flex;
-    gap: 10px;
-}
-
-.Button-grp button{
-    background-color: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 50%;
-    cursor:pointer;
-    padding:5px;
-    width:30px;
-    height:30px;
-    
-}
-
-.Button-grp button:hover{
-    background-color: #e0e0e0;
 }

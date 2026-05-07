@@ -1,133 +1,58 @@
-import {useState} from "react"
-import "./puzzlecard.css"
+import { useState } from "react";
+import "./puzzlecard.css";
+
 function PuzzleCard() {
+  const [index, setIndex] = useState(0);
 
-  const [index,setIndex] = useState(0)
+  const cards = [1, 2, 3, 4, 5,6,7]; 
 
-
-  const prev = () =>{
-    setIndex(index - 1)
-  }
- 
+  const prev = () => {
+    setIndex((prev) => Math.max(prev - 1, 0));
+  };
 
   const next = () => {
-
-    setIndex(index + 1)
-    
-    
-  }
+    setIndex((prev) => Math.min(prev + 1, cards.length - 1));
+  };
 
   return (
-    <>
-   
-   <div className="puzzle-card">
-   
-     <div className="upper-row">
-     <p>Your morning puzzle is ready 🌄</p>
-     <div className="Button-grp">
+    <div className="puzzle-card">
 
-    <button onClick={prev}>&#8249;</button>
-     <button onClick={next}>&#8250;</button>
+      {/* Header */}
+      <div className="upper-row">
+        <p>Your morning puzzle is ready 🌄</p>
 
-     </div>
-    
-     </div>
-
-
-     <div className="carousel-track"
-     style={{
-      transform: `translateX(-${index * 100}%)`
-     }}
-     
-     >
-
-    
-     <div className="parent-down-row">
-
-        <div className="down-row2">
-
-            <img src="" alt="image" />
-
-             <div className="puzzle-info">
-               <p>Puzzle Info</p>
-               <p>Patches</p>
-             </div>
-
-             <button className="btn-1">Solve</button>
+        <div className="Button-grp">
+          <button onClick={prev}>&#8249;</button>
+          <button onClick={next}>&#8250;</button>
         </div>
+      </div>
 
+      {/* Carousel */}
+      <div
+        className="carousel-track"
+        style={{
+          transform: `translateX(-${index * 100}%)`,
+        }}
+      >
+        {cards.map((item, i) => (
+          <div className="slide" key={i}>
+            <div className="down-row2">
 
+              <img src="" alt="image" />
 
+              <div className="puzzle-info">
+                <p>Puzzle Info {item}</p>
+                <p>Patches</p>
+              </div>
 
+              <button className="btn-1">Solve</button>
+            </div>
+          </div>
+        ))}
+      </div>
 
-         <div className="down-row2">
-
-            <img src="" alt="image" />
-
-             <div className="puzzle-info">
-               <p>Puzzle Info</p>
-               <p>Patches</p>
-             </div>
-
-             <button className="btn-1">Solve</button>
-        </div>
-
-
-
-         <div className="down-row2">
-
-            <img src="" alt="image" />
-
-             <div className="puzzle-info">
-               <p>Puzzle Info</p>
-               <p>Patches</p>
-             </div>
-
-             <button className="btn-1">Solve</button>
-
-        </div>
-
-
-        <div className="down-row2">
-
-            <img src="" alt="image" />
-
-             <div className="puzzle-info">
-               <p>Puzzle Info</p>
-               <p>Patches</p>
-             </div>
-
-             <button className="btn-1">Solve</button>
-
-        </div>
-
-
-
-        <div className="down-row2">
-
-            <img src="" alt="image" />
-
-             <div className="puzzle-info">
-               <p>Puzzle Info</p>
-               <p>Patches</p>
-             </div>
-
-             <button className="btn-1">Solve</button>
-
-        </div>
-
-
-     </div>
-
-</div>
-        
-
-   </div>
-
-    
-    
-    </>
-  )
+    </div>
+  );
 }
 
-export default PuzzleCard
+export default PuzzleCard;
