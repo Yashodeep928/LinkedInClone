@@ -1,0 +1,78 @@
+.premium-section{
+    width: 700px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.premium-carousel-track{
+    display: flex;
+    border: 1px solid black;
+    gap: 5px;
+    transition: transform 0.3s ease;  
+}
+
+.down-row-premium{
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.down-row-premium button{
+    cursor: pointer;
+    color: #186FC6;
+    padding: 5px 15px;
+    border: 1px solid #186FC6;
+    border-radius: 20px;
+    background: white;
+}
+
+.premium-info{
+    display: flex;
+    gap: 10px;
+}
+
+.premium-info img{
+    border: 1px solid #e0e0e0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.premium-btn-group{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-round{
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-round:hover {
+    background-color: #e0e0e0;
+}
+
+.btn-cut{
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.btn-cut:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+
+
