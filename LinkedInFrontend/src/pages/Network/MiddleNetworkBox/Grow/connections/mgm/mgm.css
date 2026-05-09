@@ -1,0 +1,25 @@
+.parent-container{
+    
+    height: 700px;
+    width: 700px;
+    background-color: white;
+}
+
+.mgm-upper-row{
+    display: flex;
+}
+.mgm-down-row {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, 100px); 
+    gap: 15px;
+
+}
+
+.card{
+    border: 1px solid black;
+    height: 150px;
+    width: 100px;
+    gap: 10px;
+}

@@ -59,10 +59,7 @@ const next = () => {
                 <button>View profile</button>
 
             </div>
-
-
-            
-            
+     
         </div>
 
     </div>

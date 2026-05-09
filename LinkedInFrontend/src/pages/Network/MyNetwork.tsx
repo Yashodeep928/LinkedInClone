@@ -4,6 +4,7 @@ import InviteCard from './MiddleNetworkBox/Grow/invitations/InviteCard'
 import NetworkBox from './MiddleNetworkBox/NetworkBox'
 import PuzzleCard from './MiddleNetworkBox/Grow/puzzle/puzzlecard'
 import Premium from './MiddleNetworkBox/Grow/premium/premium'
+import Connections from './MiddleNetworkBox/Grow/connections/Connections'
 // import NetworkCard from './NetworkCard/NetworkCard'
 
 function MyNetwork() {
@@ -21,6 +22,7 @@ function MyNetwork() {
       <InviteCard/>
       <PuzzleCard/>
       <Premium/>
+      <Connections/>
     </div>    
     </>
   )
