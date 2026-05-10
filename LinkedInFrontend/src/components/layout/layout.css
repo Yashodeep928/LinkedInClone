@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-
 }
 
 body{
 background-color: #F4F2EE;
-
 }
 /* .layoutheader{
   border: 1px solid red; 
@@ -58,5 +56,8 @@ background-color: #F4F2EE;
 
 .rightSection{
     /* background-color: white; */
+    display: flex;
     flex: 0 0 100px;
+    flex-direction: column;
+    gap: 15px;
 }

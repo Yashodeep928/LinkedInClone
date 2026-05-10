@@ -16,7 +16,7 @@ function MgM() {
         <div className="mgm-down-row">
 
             {
-                ArrayOfElements.map((item,index)=>{
+                ArrayOfElements.map((_,index)=>{
                     return (
                         <div className="card" key={index}>
                             <img src="image" alt="image" />

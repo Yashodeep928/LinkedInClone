@@ -17,7 +17,7 @@ function MyNetwork() {
 
     </div>
 
-    <div className="middleSection">
+    <div className="rightSection">
       <NetworkBox/>
       <InviteCard/>
       <PuzzleCard/>
