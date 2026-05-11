@@ -4,7 +4,6 @@ function Connections() {
   return (
     <>
     <MgM/>
-    
     </>
   )
 }

@@ -37,9 +37,10 @@ background-color: #F4F2EE;
 .mainContent{
     /* background-color: white; */
     margin: 100px 191px 100px 196px;
-    height: 500px;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .profileSection{
@@ -57,7 +58,7 @@ background-color: #F4F2EE;
 .rightSection{
     /* background-color: white; */
     display: flex;
-    flex: 0 0 100px;
     flex-direction: column;
     gap: 15px;
+    flex: 0 0 auto;
 }
