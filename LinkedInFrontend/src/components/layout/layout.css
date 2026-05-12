@@ -41,6 +41,7 @@ background-color: #F4F2EE;
 
 .profileSection{
     /* background-color: white; */
+    border: 2px solid red;
       width: 250px;
 }
 
