@@ -39,10 +39,14 @@ background-color: #F4F2EE;
     gap: 20px;
 }
 
-.profileSection{
+..profileSection{
     /* background-color: white; */
     border: 2px solid red;
-      width: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
 }
 
 .middleSection{

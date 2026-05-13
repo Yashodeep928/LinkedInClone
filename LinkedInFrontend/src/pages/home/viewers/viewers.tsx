@@ -1,5 +1,5 @@
 import './viewers.css'
-import { FaBookmark, FaRegBookmark,FaUsers,FaRegNewspaper, FaCalendarAlt  } from 'react-icons/fa';
+import { FaBookmark,FaUsers,FaRegNewspaper, FaCalendarAlt  } from 'react-icons/fa';
 type StatItemProps = {
   label: string
   value: number
