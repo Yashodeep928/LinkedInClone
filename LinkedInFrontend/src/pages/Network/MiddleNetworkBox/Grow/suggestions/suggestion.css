@@ -1,0 +1,75 @@
+.suggestion-parent-container{
+    width: 700px;
+    background-color: white;
+}
+
+.suggestion-upper-row{
+    padding: 15px;
+}
+
+.suggestion-down-row{
+    display: grid;
+     grid-template-columns: repeat(4, 1fr);
+
+    gap: 15px;
+    padding:  15px;   
+    
+    grid-auto-rows: 150px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 155px;
+    height: 150px;
+
+    padding: 15px;
+    gap: 10px;
+
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+
+    
+    cursor: pointer;
+}
+
+
+
+.card img{
+    width: 70px;
+    height: 70px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+}
+
+.card p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.card button{
+    padding: 10px 15px;
+
+    background-color: white;
+    color: #2563eb;
+
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
