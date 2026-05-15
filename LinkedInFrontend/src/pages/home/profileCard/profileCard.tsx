@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 function ProfileCard (){
     return(
         <>
-<div className="card">
-
-
      <div className="profile-card">
 
             <Link className='links' to ="/profile">
@@ -28,11 +25,10 @@ function ProfileCard (){
 
             </Link>
 
-             <button className='profile-card-btn'>+ Experince</button>
+             <button className='profile-card-btn'>+ Experience</button>
 
 
         </div>
-</div>
        
         </>
     )

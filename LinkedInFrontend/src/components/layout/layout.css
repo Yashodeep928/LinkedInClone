@@ -33,20 +33,23 @@ background-color: #F4F2EE;
 
 
 .mainContent{
-    margin: 100px 191px 100px 196px;
+    /* border: 2px solid red; */
+    max-width: 1128px;
+    margin: 100px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
-..profileSection{
+.profileSection{
     /* background-color: white; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 250px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    align-items: flex-start;
+    flex-shrink: 0;
 }
 
 .middleSection{
@@ -54,6 +57,8 @@ background-color: #F4F2EE;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 400px;
+    flex-shrink: 0;
 }
 
 .rightSection{
@@ -61,5 +66,6 @@ background-color: #F4F2EE;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    flex: 0 0 auto;
+    width: 300px;
+    flex-shrink: 0;
 }

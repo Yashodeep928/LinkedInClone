@@ -5,19 +5,20 @@ import NetworkBox from './MiddleNetworkBox/NetworkBox'
 import PuzzleCard from './MiddleNetworkBox/Grow/puzzle/puzzlecard'
 import Premium from './MiddleNetworkBox/Grow/premium/premium'
 import Connections from './MiddleNetworkBox/Grow/connections/Connections'
+import './MyNetwork.css'
 // import NetworkCard from './NetworkCard/NetworkCard'
 
 function MyNetwork() {
   return (
     <>
-    <div className="profileSection">
+    <div className="network-sidebar">
        
        <ManageNetwork/>
        <Footer2/>
 
     </div>
 
-    <div className="rightSection">
+    <div className="network-main">
       <NetworkBox/>
       <InviteCard/>
       <PuzzleCard/>

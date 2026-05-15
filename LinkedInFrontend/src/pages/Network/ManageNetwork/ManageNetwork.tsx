@@ -1,6 +1,6 @@
 
 import './ManageNetwork.css'
-import { FaUserFriends, FaUser, FaCalendarAlt, FaBuilding,FaNewspaper  } from "react-icons/fa";
+import { FaUserFriends, FaUser, FaBuilding,FaNewspaper  } from "react-icons/fa";
 import { MdGroups, MdEvent } from "react-icons/md";
 function ManageNetwork(){
     return(
@@ -14,46 +14,46 @@ function ManageNetwork(){
 
     <ol className='list-of-items'>
 
-       <li className='item'>
-  <div className="right">
+       <li className='manage-network-item'>
+  <div className="manage-network-label">
     <FaUserFriends />
     Connections
   </div>
-  <div className="left">
+  <div className="manage-network-count">
     <span>438</span>
   </div>
 </li>
 
-<li className='item'>
-  <div className="right">
+<li className='manage-network-item'>
+  <div className="manage-network-label">
     <FaUser />
     Following & Followers
   </div>
 </li>
 
-<li className='item'>
-  <div className="right">
+<li className='manage-network-item'>
+  <div className="manage-network-label">
     <MdGroups />
     Groups
   </div>
 </li>
 
-<li className='item'>
-  <div className="right">
+<li className='manage-network-item'>
+  <div className="manage-network-label">
     <MdEvent />
     Events
   </div>
 </li>
 
-<li className='item'>
-  <div className="right">
+<li className='manage-network-item'>
+  <div className="manage-network-label">
     <FaBuilding />
     Pages
   </div>
 </li>
 
-<li className='item'>
-  <div className="right">
+<li className='manage-network-item'>
+  <div className="manage-network-label">
     <FaNewspaper />
     Newsletters
   </div>
