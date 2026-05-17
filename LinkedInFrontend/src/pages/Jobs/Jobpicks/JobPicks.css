@@ -1,0 +1,36 @@
+.jobs-section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.jobs-card{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+.left{
+    display: flex;
+    gap: 15px;
+}
+
+.job-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.right{
+    margin-left: auto;
+}
+.cross-btn{
+    cursor: pointer;
+    padding: 1px;
+    border: none;
+    background-color: white;
+    
+}
+
