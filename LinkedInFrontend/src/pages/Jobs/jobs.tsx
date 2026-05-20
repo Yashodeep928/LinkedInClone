@@ -1,6 +1,6 @@
 import Footer2 from '../../components/Footer/Footer2'
 import ProfileCard from '../home/profileCard/profileCard'
-import JobPicks, { MoreJobs } from './Jobpicks/JobPicks'
+import JobPicks, { JobCollections, MoreJobs } from './Jobpicks/JobPicks'
 import './jobs.css'
 function Jobs() {
   return (
@@ -13,6 +13,7 @@ function Jobs() {
 
     <div className="jobs-main">
       <JobPicks/>
+      <JobCollections/>
       <MoreJobs/>
   
     </div>    
