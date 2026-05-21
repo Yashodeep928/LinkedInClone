@@ -1,0 +1,15 @@
+.notification-card{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    border-bottom:1px solid gray ;
+}
+
+
+.menu-btn{
+    background-color: white;
+    border: none;
+}
+

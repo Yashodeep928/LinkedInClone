@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer/Footer"
 import ProfileCard from "../home/profileCard/profileCard"
+import Content from "./content/Content"
 
 function Notification() {
 
@@ -13,6 +14,7 @@ function Notification() {
 
 
 <div className="middleSection">
+    <Content/>
 
 </div>
 
