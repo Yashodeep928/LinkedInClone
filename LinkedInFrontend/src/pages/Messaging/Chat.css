@@ -1,0 +1,7 @@
+.chats-sidebar{
+     width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-shrink: 0;
+}
