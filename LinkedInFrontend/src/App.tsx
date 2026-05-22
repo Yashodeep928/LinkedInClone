@@ -4,6 +4,7 @@ import Home from "./pages/home/Home";
 import MyNetwork from "./pages/Network/MyNetwork";
 import Jobs from "./pages/Jobs/jobs";
 import Notification from "./pages/Notification/Notification";
+import Chat from "./pages/Messaging/Chat";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Route path="/network" element={<MyNetwork />} />
     <Route path="/jobs" element={<Jobs/>} />
     <Route path="/notifications" element={<Notification/>}/>
+    <Route path="/messaging" element={<Chat/>}/>
     </Route>
     </Routes>
   );
