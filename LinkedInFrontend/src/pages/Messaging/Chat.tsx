@@ -10,7 +10,7 @@ function Chat() {
 
     </div>
 
-    <div className="rightSection">
+    <div className="chats-main">
       <Footer/>
     </div>    
     

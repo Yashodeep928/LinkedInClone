@@ -6,3 +6,35 @@
     background-color:white;
     border-radius:10px;
 }
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    gap:10px;
+    display:flex;
+}
+.header-right{
+    display:flex;
+    gap:10px;
+}
+.header-right button{
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+}
+
+.ChatList{
+    display:flex;
+}
+.ChatList-Item{
+    display:flex;
+    gap:10px;
+    padding:10px;
+    cursor:pointer;
+}
+.Chat-List-Item-left{
+    display:flex;
+    gap:10px;
+}
