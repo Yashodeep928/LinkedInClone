@@ -25,12 +25,14 @@ function ChatSection() {
         </div>
 
         <div className="menu-content">
+
           <button>Focused</button>
           <button>Jobs</button>
           <button>Unread</button>
           <button>Connections</button>
           <button>InMail</button>
           <button>Starred</button>
+          
         </div>
 
 

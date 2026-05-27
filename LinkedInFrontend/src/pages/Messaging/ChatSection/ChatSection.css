@@ -10,6 +10,8 @@
 .Header{
     display: flex;
     justify-content: space-between;
+    padding:18px;
+
 }
 .header-left{
     gap:10px;
@@ -26,10 +28,11 @@
 }
 
 .ChatList{
-    display:flex;
+     display:flex;
+    overflow:hidden;
 }
 .ChatList-Item{
-    display:flex;
+    /* display:flex; */
     gap:10px;
     padding:10px;
     cursor:pointer;
@@ -40,5 +43,25 @@
 }
 
 .ChatAreaLayout{
-    border:1px solid red;
+    /* border:1px solid red;    */
+    flex:1;
+}
+
+.menu-content{
+    padding:18px;
+    display:flex;
+    gap:5px;
+    /* border:2px solid blue; */
+    z-index:1;
+}
+
+.menu-content button{
+     font-size:14px;
+    padding:5px;
+    border:1px solid black;
+    border-radius:8px;
+    background-color:white;
+    color:black;
+    cursor:pointer;
+    flex-shrink:0;
 }
