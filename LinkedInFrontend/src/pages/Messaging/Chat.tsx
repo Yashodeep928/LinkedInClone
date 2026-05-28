@@ -5,7 +5,9 @@ function Chat() {
   return (
     <>
 
-    <div className="chats-sidebar">
+    <div className="chats-layout">
+
+       <div className="chats-sidebar">
        <ChatSection/>
 
     </div>
@@ -13,6 +15,11 @@ function Chat() {
     <div className="chats-main">
       <Footer/>
     </div>    
+
+
+    </div>
+
+   
     
     
     </>

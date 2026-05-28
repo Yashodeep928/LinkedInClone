@@ -1,14 +1,27 @@
+.chats-layout{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+
+}
+
 .chats-sidebar{
+    /* border:1px solid blue;
     width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    flex-shrink: 0;
+    gap: 15px; */
+  
 }
-.chats-main{
-     width: 700px;
+/* .chats-main{
+
+    /* border: 1px solid red;
+    width: 500px;
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-    flex-shrink: 0;
-}
+    justify-content: flex-end;
+    /* flex-direction: column; */
+    /* gap: 15px;
+    
+}*/ 
+
+    

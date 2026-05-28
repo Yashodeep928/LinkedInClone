@@ -1,7 +1,8 @@
 .messaging-chat-section{
+    margin-right: 100px;
     display:flex;
     flex-direction:column;
-    width:500px;
+    width:750px;
     height:800px;
     background-color:white;
     border-radius:10px;
@@ -43,8 +44,9 @@
 }
 
 .ChatAreaLayout{
-    /* border:1px solid red;    */
+    border:1px solid red;   
     flex:1;
+    display:flex;
 }
 
 .menu-content{
