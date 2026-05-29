@@ -44,9 +44,21 @@
 }
 
 .ChatAreaLayout{
+
     border:1px solid red;   
-    flex:1;
+    flex-direction:column;
     display:flex;
+}
+
+.chat-header-actions{
+    display:flex;
+    gap:10px;
+    cursor:pointer;
+}
+
+.ChatAreaHeader{
+    display:flex;
+    justify-content:space-between;
 }
 
 .menu-content{

@@ -1,5 +1,5 @@
 import "./ChatSection.css"
-import { Ellipsis,Edit2 } from "lucide-react"
+import { Ellipsis,Edit2, Star } from "lucide-react"
 
 function ChatSection() {
   return (
@@ -63,7 +63,17 @@ function ChatSection() {
             <div className="ChatAreaLayout">
               
               <div className="ChatAreaHeader">
-                <h3>Chat Area</h3>
+
+                <div className="chat-profile">
+                   <h3 className="chat-user-name">Yashodeep</h3>
+                   <p className="chat-user-status">Active Now</p>
+                </div>
+
+                <div className="chat-header-actions">
+                     <Ellipsis />
+                     <Star />
+               </div>
+                
               </div>
 
               <div className="ChatAreaContent">
