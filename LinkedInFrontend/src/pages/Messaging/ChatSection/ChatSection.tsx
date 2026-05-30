@@ -80,6 +80,21 @@ function ChatSection() {
                 <p>This is where the chat messages will be displayed.</p>
                 </div>
 
+                <div className="ChatAreaTextBox">
+
+                  <div className="textBox">
+
+                     <textarea placeholder="Write some message" />
+
+                  </div>
+
+                  <div className="text-links">
+                    
+                  </div>
+                 
+
+                </div>
+
             </div>
 
           </div>
