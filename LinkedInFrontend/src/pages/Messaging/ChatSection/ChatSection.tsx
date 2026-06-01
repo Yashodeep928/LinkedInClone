@@ -1,5 +1,9 @@
 import "./ChatSection.css"
-import { Ellipsis,Edit2, Star } from "lucide-react"
+import { Ellipsis,Edit2, Star,  Paperclip,
+  Image,
+  Smile,
+  Send,
+  FileText } from "lucide-react"
 
 function ChatSection() {
   return (
@@ -88,8 +92,13 @@ function ChatSection() {
 
                   </div>
 
-                  <div className="text-links">
-                    
+                  <div className="Attachment-Toolbar">
+                   <button>  <Paperclip /> </button>
+                   <button>  <Image /> </button>
+                   <button>  <Smile /> </button>
+                   <button>  <FileText /> </button>
+                   
+                                   
                   </div>
                  
 
