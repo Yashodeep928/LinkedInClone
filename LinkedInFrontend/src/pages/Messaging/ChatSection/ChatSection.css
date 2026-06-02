@@ -85,4 +85,39 @@
     display:flex;
     gap:10px;
     padding:10px;
+    justify-content:space-between;
+}
+.left-Attachment-actions{
+    display:flex;
+    gap:10px;
+}
+
+.left-Attachment-actions button{
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+}
+.right-Attachment-actions{
+    display:flex;
+    gap:10px;
+}
+.right-Attachment-actions button{
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+}
+
+.attachment-dropdown{
+    position:absolute;
+    background-color:white;
+    border:1px solid black;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.press-enter, .click-to-send{
+    display:flex;
+    align-items:center;
+    gap:15px;
 }
