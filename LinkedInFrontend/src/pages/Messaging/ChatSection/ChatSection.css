@@ -48,6 +48,7 @@
     border:1px solid red;   
     flex-direction:column;
     display:flex;
+    width:500px;
 }
 
 .chat-header-actions{
@@ -59,6 +60,14 @@
 .ChatAreaHeader{
     display:flex;
     justify-content:space-between;
+}
+
+.textArea{
+    width:400px;
+    height:80px;
+    padding:10px;
+    border:1px solid black;
+    font-size: larger;
 }
 
 .menu-content{
@@ -100,6 +109,7 @@
 .right-Attachment-actions{
     display:flex;
     gap:10px;
+    position:relative;
 }
 .right-Attachment-actions button{
     background-color:transparent;
@@ -109,6 +119,7 @@
 
 .attachment-dropdown{
     position:absolute;
+    bottom:30px;
     background-color:white;
     border:1px solid black;
     padding:10px;

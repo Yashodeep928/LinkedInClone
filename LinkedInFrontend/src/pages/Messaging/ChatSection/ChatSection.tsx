@@ -98,7 +98,7 @@ function ChatSection() {
 
                   <div className="textBox">
 
-                     <textarea placeholder="Write some message" />
+                     <textarea className="textArea" placeholder="Write some message" />
 
                   </div>
 
