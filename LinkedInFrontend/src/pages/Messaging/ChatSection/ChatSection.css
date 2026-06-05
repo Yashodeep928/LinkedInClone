@@ -109,8 +109,13 @@
 .right-Attachment-actions{
     display:flex;
     gap:10px;
+    align-items:center;
+}
+
+.dropdown-wrapper{
     position:relative;
 }
+
 .right-Attachment-actions button{
     background-color:transparent;
     border:none;
@@ -118,8 +123,10 @@
 }
 
 .attachment-dropdown{
-    position:absolute;
+    position: absolute;
+    right:0;
     bottom:30px;
+    width:150px;
     background-color:white;
     border:1px solid black;
     padding:10px;

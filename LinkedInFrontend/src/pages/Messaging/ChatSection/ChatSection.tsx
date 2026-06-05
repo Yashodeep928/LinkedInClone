@@ -112,40 +112,41 @@ function ChatSection() {
                       <button>  <Film/>      </button>
 
                    </div>
-
                    <div className="right-Attachment-actions">
                         <span>{message}</span>
-                       <button onClick={openModal}><Ellipsis/></button>
 
-                       {
-                        isOpen && (
-                          <div className ="attachment-dropdown">
+                       <div className="dropdown-wrapper">
+                         <button onClick={openModal}><Ellipsis/></button>
+
+                         {
+                          isOpen && (
+                            <div className ="attachment-dropdown">
 
 
-                          <div className="press-enter">
+                            <div className="press-enter">
 
-                              <input type="checkbox" id="press-enter" value="Press Enter to Send"  onChange={(e) =>{ if(e.target.checked){
-                                     setMessage(e.target.value)
-                              }}}  />
-                              <label htmlFor="press-enter">Press Enter to Send</label>
+                                <input type="checkbox" id="press-enter" value="Press Enter to Send"  onChange={(e) =>{ if(e.target.checked){
+                                       setMessage(e.target.value)
+                                }}}  />
+                                <label htmlFor="press-enter">Press Enter to Send</label>
 
-                          </div>
+                            </div>
 
-                           <div className="click-to-send">
+                             <div className="click-to-send">
 
-                              <input type="checkbox" id="click-to-send" value="Click to send" onChange={(e) =>{ if(e.target.checked){
-                                     setMessage(e.target.value)
-                              }}}  />
-                              <label htmlFor="click-to-send">Click to send</label>
-                            
-                           </div>
-                           
+                                <input type="checkbox" id="click-to-send" value="Click to send" onChange={(e) =>{ if(e.target.checked){
+                                       setMessage(e.target.value)
+                                }}}  />
+                                <label htmlFor="click-to-send">Click to send</label>
+                              
+                             </div>
+                             
 
-                            <button onClick={()=>setIsOpen(!isOpen)} type="button">CUT</button>
-                          </div>
-                        )
-                       }
-
+                              <button onClick={()=>setIsOpen(!isOpen)} type="button">CUT</button>
+                            </div>
+                          )
+                         }
+                       </div>
                    </div>
                    
                                    
