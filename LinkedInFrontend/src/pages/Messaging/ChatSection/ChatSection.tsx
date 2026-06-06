@@ -2,13 +2,19 @@ import "./ChatSection.css"
 import { Ellipsis,Edit2, Star,  Paperclip,
   Image,
   Smile,
-  Film} from "lucide-react"
+  Film ,
+  ChevronDown} from "lucide-react"
 
   import {useState} from "react"
 
 function ChatSection() {
   const [isOpen, setIsOpen] = useState<boolean>(false)
   const [message, setMessage] = useState<string>("")
+  const [isHeight,setIsHeight] = useState<boolean>(false)
+
+  const IncreaseHeight = () => {
+    setIsHeight((prev) => !prev)
+  }
   
 
   const openModal = () =>{
@@ -98,7 +104,17 @@ function ChatSection() {
 
                   <div className="textBox">
 
-                     <textarea className="textArea" placeholder="Write some message" />
+
+                     <textarea style={{height:isHeight ?"100px":"auto"}} className="textArea" placeholder="Write some message" />
+
+                     <button type="button" onClick={IncreaseHeight}>
+                      {
+                        isHeight && <ChevronDown style={{rotate:"180deg"}}/>
+                      }
+                      </button>
+                     
+                  
+                     
 
                   </div>
 
