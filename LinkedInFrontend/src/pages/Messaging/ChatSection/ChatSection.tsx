@@ -105,16 +105,22 @@ function ChatSection() {
                   <div className="textBox">
 
 
-                     <textarea style={{height:isHeight ?"100px":"auto"}} className="textArea" placeholder="Write some message" />
+                     <textarea style={
+                      {
+                        height:isHeight ?"100px":"auto",                
+                      }
+                     } className="textArea" placeholder="Write some message" />
 
                      <button type="button" onClick={IncreaseHeight}>
-                      {
-                        isHeight && <ChevronDown style={{rotate:"180deg"}}/>
-                      }
-                      </button>
-                     
-                  
-                     
+                
+                        <ChevronDown style={
+                          {
+                            transform: isHeight ? "rotate(180deg)" : "rotate(0deg)",
+                            transition: "transform 0.3s ease"
+                          }
+                          }/>
+                      
+                      </button>         
 
                   </div>
 

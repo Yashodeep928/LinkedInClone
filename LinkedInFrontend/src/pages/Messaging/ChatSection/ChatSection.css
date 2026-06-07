@@ -62,12 +62,28 @@
     justify-content:space-between;
 }
 
+
+
+
+
+.ChatAreaTextBox{
+    position: relative;   
+}
+
+
 .textArea{
+    position: absolute;
     width:400px;
     height:80px;
     padding:10px;
     border:1px solid black;
     font-size: larger;
+    bottom:0;
+}
+
+.textBox button {
+    background: transparent;
+    border: 1px solid gray;
 }
 
 .menu-content{
