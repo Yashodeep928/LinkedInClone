@@ -33,7 +33,6 @@
     overflow:hidden;
 }
 .ChatList-Item{
-    /* display:flex; */
     gap:10px;
     padding:10px;
     cursor:pointer;
@@ -44,7 +43,6 @@
 }
 
 .ChatAreaLayout{
-
     border:1px solid red;   
     flex-direction:column;
     display:flex;
@@ -62,14 +60,9 @@
     justify-content:space-between;
 }
 
-
-
-
-
 .ChatAreaTextBox{
     position: relative;   
 }
-
 
 .textArea{
     position: absolute;
@@ -90,7 +83,6 @@
     padding:18px;
     display:flex;
     gap:5px;
-    /* border:2px solid blue; */
     z-index:1;
 }
 
