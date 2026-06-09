@@ -98,6 +98,18 @@ function ChatSection() {
 
               <div className="ChatAreaContent">
                 <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
                 </div>
 
                 <div className="ChatAreaTextBox">
@@ -107,7 +119,7 @@ function ChatSection() {
 
                      <textarea style={
                       {
-                        height:isHeight ?"100px":"auto",                
+                        height:isHeight ?"200px":"80px",                
                       }
                      } className="textArea" placeholder="Write some message" />
 
