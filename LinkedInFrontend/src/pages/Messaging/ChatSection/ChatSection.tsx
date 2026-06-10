@@ -125,7 +125,7 @@ function ChatSection() {
 
                      <button type="button" onClick={IncreaseHeight}>
                 
-                        <ChevronDown style={
+                        <ChevronDown className="chev" style={
                           {
                             transform: isHeight ? "rotate(180deg)" : "rotate(0deg)",
                             transition: "transform 0.3s ease"
