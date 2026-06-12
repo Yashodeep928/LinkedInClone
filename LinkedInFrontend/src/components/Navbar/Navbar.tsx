@@ -13,9 +13,16 @@ import './Nav.css'
 function Navbar() {
 
   const [isOpen, setIsOpen] = useState(false);
+  const [modal,setModal] = useState(false)
 
   const openLinks = () => {
     setIsOpen(prev => !prev);
+  }
+
+  const OpenMe = () =>{
+
+    setModal(prev => !prev )
+
   }
 
   return (
@@ -75,7 +82,7 @@ function Navbar() {
   </Link>
 </li>
 
-          <li className="navbar-item">
+          <li onClick={OpenMe} className="navbar-item">
             <img src="/src/assets/Yashodeep.JPG" alt="Profile" />
             <button className="navbar-btn">Me</button>
           </li>
@@ -103,6 +110,24 @@ function Navbar() {
         </button>
 
       </div>
+
+
+      {
+        modal && (
+          <div className="profile-modal">
+           <div className="profile-info">
+            <img src="" alt="" />
+            <div className="title"></div>
+           </div>
+
+
+          </div>
+        )
+      }
+
+
+
+
     </div>
   )
 }
