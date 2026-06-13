@@ -5,7 +5,7 @@ import { Ellipsis,Edit2, Star,  Paperclip,
   Film ,
   ChevronDown} from "lucide-react"
 
-  import {useState} from "react"
+ import { useState } from "react"
 
 function ChatSection() {
   const [isOpen, setIsOpen] = useState<boolean>(false)
