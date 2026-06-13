@@ -98,6 +98,18 @@ function ChatSection() {
 
               <div className="ChatAreaContent">
                 <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
+                <p>This is where the chat messages will be displayed.</p>
                 </div>
 
                 <div className="ChatAreaTextBox">
@@ -107,13 +119,13 @@ function ChatSection() {
 
                      <textarea style={
                       {
-                        height:isHeight ?"100px":"auto",                
+                        height:isHeight ?"200px":"80px",                
                       }
                      } className="textArea" placeholder="Write some message" />
 
                      <button type="button" onClick={IncreaseHeight}>
                 
-                        <ChevronDown style={
+                        <ChevronDown className="chev" style={
                           {
                             transform: isHeight ? "rotate(180deg)" : "rotate(0deg)",
                             transition: "transform 0.3s ease"
