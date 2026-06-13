@@ -115,11 +115,30 @@ function Navbar() {
       {
         modal && (
           <div className="profile-modal">
-           <div className="profile-info">
-            <img src="" alt="" />
-            <div className="title"></div>
-           </div>
 
+
+           <div className="profile-info">   
+
+            <div className="profile-details">
+
+              <img src="Yashodeep.JPG" alt="my image" />
+              
+              <div className="title">
+                <p>Full Stack Developer | Building scalable web applications for businesses | Responsive UIs, API integrations, custom components | Next.js typescript GoLang</p>
+              </div>
+
+            </div>
+            
+            <div className="view-profile-btn">
+
+                <Link to="/profile">
+                  <button>View Profile</button>
+                </Link>
+
+            </div>
+          
+           </div>
+    
 
           </div>
         )
