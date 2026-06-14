@@ -117,7 +117,7 @@ function Navbar() {
           <div className="profile-modal">
 
 
-           <div className="profile-info">   
+           <div className="modal-profile-info">   
 
             <div className="profile-details">
 
@@ -138,6 +138,22 @@ function Navbar() {
             </div>
           
            </div>
+
+           <div className="account-info">
+             <h4>Account</h4>
+             <Link to="/settings">Settings & Privacy</Link>
+             <Link to="/help">Help</Link>
+             <Link to="/language">Language</Link>
+           </div>
+
+           <div className="manage-info">
+             <h4>Manage</h4>
+             <Link to="/post">Post & Activity</Link>             
+             <Link to="/job-post">Job Posting Account</Link>             
+
+           </div>
+
+           <button type="button">Sign out</button>
     
 
           </div>

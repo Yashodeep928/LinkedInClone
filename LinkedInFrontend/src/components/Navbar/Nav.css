@@ -145,7 +145,8 @@
   border: 1px solid red;
 }
 
-.profile-info{
+.modal-profile-info{
+  margin-top: 10px;
 
 }
 
@@ -158,7 +159,20 @@
   width:100%;
 }
 
-/* ================= RESPONSIVE ================= */
+.account-info{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.manage-info{
+
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
 
 .nav-right.active{
   display: flex;
