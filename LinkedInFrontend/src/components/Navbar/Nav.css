@@ -129,6 +129,7 @@
 }
 
 
+
 .profile-modal{
   border-radius: 10px;
   border: 1px solid black;
@@ -147,7 +148,6 @@
 
 .modal-profile-info{
   margin-top: 10px;
-
 }
 
 .view-profile-btn{
@@ -160,17 +160,27 @@
 }
 
 .account-info{
-  gap: 10px;
+  gap: 18px;
   display: flex;
   flex-direction: column;
 
 }
 .manage-info{
 
-  gap: 10px;
+  gap: 25px;
   display: flex;
   flex-direction: column;
 
+}
+
+.sign-out-btn{
+  width: 100%;
+  padding: 5px;
+}
+
+.image{
+  width: 20px;
+  height: 10px;
 }
 
 

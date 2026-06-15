@@ -121,7 +121,7 @@ function Navbar() {
 
             <div className="profile-details">
 
-              <img src="Yashodeep.JPG" alt="my image" />
+              <img className="image" src="/Yashodeep.JPG" alt="my image" />
               
               <div className="title">
                 <p>Full Stack Developer | Building scalable web applications for businesses | Responsive UIs, API integrations, custom components | Next.js typescript GoLang</p>
@@ -153,7 +153,7 @@ function Navbar() {
 
            </div>
 
-           <button type="button">Sign out</button>
+           <button className="sign-out-btn" type="button">Sign out</button>
     
 
           </div>
