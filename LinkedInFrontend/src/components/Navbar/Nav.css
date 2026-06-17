@@ -128,8 +128,6 @@
   cursor: pointer;
 }
 
-
-
 .profile-modal{
   border-radius: 10px;
   border: 1px solid black;
@@ -186,9 +184,37 @@
   height: 10px;
 }
 
-
 .nav-right.active{
   display: flex;
+}
+
+.business-modal{
+   padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+  max-height: 445px;
+  overflow-y: auto;
+  width:350px;
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+}
+
+.modal-container{
+  display: flex;
+}
+
+.my-apps{
+  border-right: 1px solid gray;
+}
+
+.my-apps li{
+  list-style-type: none;
+}
+
+.explore-business li{
+  list-style-type: none;
 }
 
 @media (max-width: 900px){

@@ -14,15 +14,18 @@ function Navbar() {
 
   const [isOpen, setIsOpen] = useState(false);
   const [modal,setModal] = useState(false)
+  const [businessModal,setBusinessModal] = useState(false)
 
   const openLinks = () => {
     setIsOpen(prev => !prev);
   }
 
   const OpenMe = () =>{
-
     setModal(prev => !prev )
+  }
 
+  const OpenBusinessModal = () =>{
+    setBusinessModal(prev => !prev)
   }
 
   return (
@@ -91,7 +94,7 @@ function Navbar() {
             <button className="business-btn">
               <FaBusinessTime className="nav-icon" />
               <span>
-                For Business <span className="caret">▾</span>
+               <button onClick={OpenBusinessModal} type="button">For Business <span className="caret">▾</span></button> 
               </span>
             </button>
           </li>
@@ -158,6 +161,48 @@ function Navbar() {
 
           </div>
         )
+      }
+
+
+      {
+        businessModal && 
+
+        <div className="business-modal">
+
+          <div className="modal-container">
+
+          <div className="my-apps">
+
+          <h2>My Apps</h2>
+
+          <li>Sell</li>
+          <li>Groups</li>
+          <li>Hire with AI</li>
+          <li>Talent Insights</li>
+          <li>Services Marketplace</li>
+
+         </div>
+
+         <div className="explore-business">
+
+          <h2>Explore more for business</h2>
+
+
+          <li>Hire for LinkedIn</li>
+          <li>Sell with LinkedIn</li>
+          <li>Post a Job for free</li>
+
+           
+
+         </div>
+
+          </div>
+         
+         
+
+        </div>
+
+        
       }
 
 
