@@ -173,7 +173,8 @@ function Navbar() {
 
           <div className="my-apps">
 
-          <h2>My Apps</h2>
+          <h3>My Apps</h3>
+         <ul className="my-list">
 
           <li>Sell</li>
           <li>Groups</li>
@@ -181,19 +182,28 @@ function Navbar() {
           <li>Talent Insights</li>
           <li>Services Marketplace</li>
 
+         </ul>
+          
+
          </div>
 
          <div className="explore-business">
 
-          <h2>Explore more for business</h2>
+          <h3>Explore more for business</h3>
 
+          <ul className="my-list">
 
           <li>Hire for LinkedIn</li>
           <li>Sell with LinkedIn</li>
           <li>Post a Job for free</li>
+          <li>Post a Job for free</li>
+          <li>Post a Job for free</li>
+          <li>Post a Job for free</li>
+          <li>Post a Job for free</li>
+          <li>Post a Job for free</li>
+          <li>Post a Job for free</li>
 
-           
-
+          </ul>
          </div>
 
           </div>

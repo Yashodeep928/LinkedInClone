@@ -189,28 +189,46 @@
 }
 
 .business-modal{
-   padding: 15px;
+  padding: 25px;
   border-radius: 10px;
   border: 1px solid black;
   background-color: white;
-  max-height: 445px;
+  max-height: 495px;
   overflow-y: auto;
-  width:350px;
+  width:550px;
   position: absolute;
-  top: 50px;
-  left: 1000px;
+  top: 80px;
+  left: 550px;
 }
 
 .modal-container{
   display: flex;
+  justify-content: space-between;
 }
 
 .my-apps{
-  border-right: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-right: 60px;   
+  border-right: 2px solid #000000; 
 }
 
 .my-apps li{
+  
   list-style-type: none;
+}
+
+.my-list{
+   display: flex;
+  flex-direction: column; 
+  gap: 15px;
+}
+
+.explore-business{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .explore-business li{
