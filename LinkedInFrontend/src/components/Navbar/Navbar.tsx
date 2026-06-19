@@ -196,12 +196,11 @@ function Navbar() {
           <li>Hire for LinkedIn</li>
           <li>Sell with LinkedIn</li>
           <li>Post a Job for free</li>
-          <li>Post a Job for free</li>
-          <li>Post a Job for free</li>
-          <li>Post a Job for free</li>
-          <li>Post a Job for free</li>
-          <li>Post a Job for free</li>
-          <li>Post a Job for free</li>
+          <li>Advertise on linkedin</li>
+          <li>Get Started with premium</li>
+          <li>learn on linkedin</li>
+          <li>Admin Center</li>
+          
 
           </ul>
          </div>
