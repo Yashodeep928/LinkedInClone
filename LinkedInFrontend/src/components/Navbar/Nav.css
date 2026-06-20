@@ -214,15 +214,34 @@
   border-right: 2px solid #000000; 
 }
 
-.my-apps li{
-  
+.my-list li {
+  display: flex;
+  gap: 10px;
   list-style-type: none;
 }
 
-.my-list{
+
+.my-business-list li {
    display: flex;
+  flex-direction: column;
+  gap: 4px;
+  list-style-type: none;
+
+}
+
+.my-list{
+  display: flex;
   flex-direction: column; 
   gap: 15px;
+}
+.my-business-list{
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+}
+.my-business-list li span {
+  font-size: 14px;
+  color: gray;
 }
 
 .explore-business{
@@ -233,6 +252,35 @@
 
 .explore-business li{
   list-style-type: none;
+}
+
+.sub-heading{
+  font-size: medium;
+  color: gray;
+}
+
+.talent{
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.Sales{
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.talent-ul{
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+
+}
+
+.sales-ul{
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
 }
 
 @media (max-width: 900px){

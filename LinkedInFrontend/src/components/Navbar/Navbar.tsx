@@ -8,6 +8,8 @@ import {
   FaBell,
   FaBusinessTime
 } from "react-icons/fa";
+import { Users, Briefcase, ShoppingBag, UserPlus } from "lucide-react";
+
 import './Nav.css'
 
 function Navbar() {
@@ -175,14 +177,40 @@ function Navbar() {
 
           <h3>My Apps</h3>
          <ul className="my-list">
+  <li>
+    <ShoppingBag size={18} />
+    Sell
+  </li>
 
-          <li>Sell</li>
-          <li>Groups</li>
-          <li>Hire with AI</li>
-          <li>Talent Insights</li>
-          <li>Services Marketplace</li>
+  <li>
+    <Users size={18} />
+    Groups
+  </li>
 
-         </ul>
+  <li className="talent">
+    <span className="sub-heading">Talent</span>
+    <ul className="talent-ul">
+      <li>
+        <UserPlus size={16} />
+        Hire with AI
+      </li>
+      <li>
+        <Briefcase size={16} />
+        Talent Insights
+      </li>
+    </ul>
+  </li>
+
+  <li className="Sales">
+    <span className="sub-heading">Sales</span>
+    <ul className="sales-ul">
+      <li>
+        <ShoppingBag size={16} />
+        Services Marketplace
+      </li>
+    </ul>
+  </li>
+</ul>
           
 
          </div>
@@ -191,32 +219,24 @@ function Navbar() {
 
           <h3>Explore more for business</h3>
 
-          <ul className="my-list">
+          <ul className="my-business-list">
 
-          <li>Hire for LinkedIn</li>
-          <li>Sell with LinkedIn</li>
-          <li>Post a Job for free</li>
-          <li>Advertise on linkedin</li>
-          <li>Get Started with premium</li>
-          <li>learn on linkedin</li>
-          <li>Admin Center</li>
+          <li>Hire for LinkedIn <span>Find, attract and recruit talent</span></li>
+          
+          <li>Sell with LinkedIn <span>Unlock sales opportunities</span></li>
+          <li>Post a Job for free <span>Find Quality Candidates</span></li>
+          <li>Advertise on linkedin <span>Acquire customers and grow your business</span></li>
+          <li>Get Started with premium <span>Expand and leverage your network</span></li>
+          <li>learn on linkedin <span>courses to develop your employess</span></li>
+          <li>Admin Center <span>Manage Billing and Account Details</span></li>
           
 
           </ul>
          </div>
 
           </div>
-         
-         
-
-        </div>
-
-        
+        </div> 
       }
-
-
-
-
     </div>
   )
 }
