@@ -210,6 +210,42 @@ function Navbar() {
       </li>
     </ul>
   </li>
+   <li className="Sales">
+    <span className="sub-heading">Sales</span>
+    <ul className="sales-ul">
+      <li>
+        <ShoppingBag size={16} />
+        Services Marketplace
+      </li>
+    </ul>
+  </li>
+   <li className="Sales">
+    <span className="sub-heading">Sales</span>
+    <ul className="sales-ul">
+      <li>
+        <ShoppingBag size={16} />
+        Services Marketplace
+      </li>
+    </ul>
+  </li>
+   <li className="Sales">
+    <span className="sub-heading">Sales</span>
+    <ul className="sales-ul">
+      <li>
+        <ShoppingBag size={16} />
+        Services Marketplace
+      </li>
+    </ul>
+  </li>
+   <li className="Sales">
+    <span className="sub-heading">Sales</span>
+    <ul className="sales-ul">
+      <li>
+        <ShoppingBag size={16} />
+        Services Marketplace
+      </li>
+    </ul>
+  </li>
 </ul>
           
 
