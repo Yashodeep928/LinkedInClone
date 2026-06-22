@@ -244,6 +244,14 @@ function Navbar() {
         <ShoppingBag size={16} />
         Services Marketplace
       </li>
+      <li>
+        <ShoppingBag size={16} />
+        Services Marketplace
+      </li>
+      <li>
+        <ShoppingBag size={16} />
+        Services Marketplace
+      </li>
     </ul>
   </li>
 </ul>
