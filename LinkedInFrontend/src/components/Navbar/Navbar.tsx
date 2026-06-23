@@ -93,10 +93,17 @@ function Navbar() {
           </li>
 
           <li className="business-item">
+
             <button className="business-btn">
               <FaBusinessTime className="nav-icon" />
+
               <span>
-               <button onClick={OpenBusinessModal} type="button">For Business <span className="caret">▾</span></button> 
+
+               <button className="for-business" onClick={OpenBusinessModal} type="button">
+                <span>For Business</span>
+                <span className="caret">▾</span>
+                </button>
+
               </span>
             </button>
           </li>
@@ -115,7 +122,6 @@ function Navbar() {
         </button>
 
       </div>
-
 
       {
         modal && (
@@ -210,50 +216,7 @@ function Navbar() {
       </li>
     </ul>
   </li>
-   <li className="Sales">
-    <span className="sub-heading">Sales</span>
-    <ul className="sales-ul">
-      <li>
-        <ShoppingBag size={16} />
-        Services Marketplace
-      </li>
-    </ul>
-  </li>
-   <li className="Sales">
-    <span className="sub-heading">Sales</span>
-    <ul className="sales-ul">
-      <li>
-        <ShoppingBag size={16} />
-        Services Marketplace
-      </li>
-    </ul>
-  </li>
-   <li className="Sales">
-    <span className="sub-heading">Sales</span>
-    <ul className="sales-ul">
-      <li>
-        <ShoppingBag size={16} />
-        Services Marketplace
-      </li>
-    </ul>
-  </li>
-   <li className="Sales">
-    <span className="sub-heading">Sales</span>
-    <ul className="sales-ul">
-      <li>
-        <ShoppingBag size={16} />
-        Services Marketplace
-      </li>
-      <li>
-        <ShoppingBag size={16} />
-        Services Marketplace
-      </li>
-      <li>
-        <ShoppingBag size={16} />
-        Services Marketplace
-      </li>
-    </ul>
-  </li>
+   
 </ul>
           
 
@@ -273,8 +236,6 @@ function Navbar() {
           <li>Get Started with premium <span>Expand and leverage your network</span></li>
           <li>learn on linkedin <span>courses to develop your employess</span></li>
           <li>Admin Center <span>Manage Billing and Account Details</span></li>
-          
-
           </ul>
          </div>
 

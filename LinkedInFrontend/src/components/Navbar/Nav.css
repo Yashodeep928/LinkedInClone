@@ -60,6 +60,7 @@
   text-decoration: none;
   color: rgba(0,0,0,0.55);
   font-size: 12px;
+  flex-wrap: nowrap;
 }
 
 .nav-link svg{
@@ -108,6 +109,8 @@
 
 /* PREMIUM LINK */
 .premium-link{
+  display: flex;
+  width: 116px;
   text-decoration: none;
   color: rgba(0,0,0,0.55);
   font-size: 14px;
@@ -257,6 +260,15 @@
 .sub-heading{
   font-size: medium;
   color: gray;
+}
+
+.for-business{
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  display: flex;
+  gap: 2px;
+  align-items: center;
 }
 
 .talent{
