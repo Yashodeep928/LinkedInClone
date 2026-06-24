@@ -17,6 +17,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [modal,setModal] = useState(false)
   const [businessModal,setBusinessModal] = useState(false)
+  const [premiumModal,setPremiumModal] = useState(false)
 
   const openLinks = () => {
     setIsOpen(prev => !prev);
@@ -28,6 +29,11 @@ function Navbar() {
 
   const OpenBusinessModal = () =>{
     setBusinessModal(prev => !prev)
+  }
+
+  const showPremiumModal = ( )=>{
+    setPremiumModal((prev)=>(!prev))
+
   }
 
   return (
@@ -109,9 +115,9 @@ function Navbar() {
           </li>
 
           <li>
-            <Link to="/premium" className="premium-link">
+            <button onClick={showPremiumModal} className="premium-link">
               Try Premium for ₹0
-            </Link>
+            </button>
           </li>
 
         </ul>
@@ -241,6 +247,15 @@ function Navbar() {
 
           </div>
         </div> 
+      }
+
+
+
+
+      {
+        premiumModal && (
+          <div></div>
+        )
       }
     </div>
   )
