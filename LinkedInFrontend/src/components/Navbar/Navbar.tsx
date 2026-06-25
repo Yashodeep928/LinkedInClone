@@ -31,8 +31,8 @@ function Navbar() {
     setBusinessModal(prev => !prev)
   }
 
-  const showPremiumModal = ( )=>{
-    setPremiumModal((prev)=>(!prev))
+  const showPremiumModal = ()=>{
+    setPremiumModal(prev=>!prev)
 
   }
 
@@ -254,7 +254,20 @@ function Navbar() {
 
       {
         premiumModal && (
-          <div></div>
+          <div className="premium-modal">
+            <h4>Yashodeep, Job search smarter</h4>
+            <ul>
+              <li>See jobs where you’d be a top applicant</li>
+              <li>Directly message recruiters with InMail</li>
+              <li>Get cover letter and resume tips</li>
+              <li>Join live talks with career experts</li>
+            </ul>
+            <button>Try 1 month premium for 0</button>
+            <p>Vaibhav and millions of other members use Premium</p>
+             
+            <p>1-month free trial. Easy to cancel. We’ll remind you 7 days before your trial ends.</p>
+            
+          </div>
         )
       }
     </div>

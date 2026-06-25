@@ -204,6 +204,17 @@
   left: 550px;
 }
 
+.premium-modal{
+   border-radius: 10px;
+  border: 1px solid black;
+  /* height: 100px; */
+  background-color: white;
+  position: absolute;
+  top: 80px;
+  left: 550px;
+   max-height: 495px;
+}
+
 .modal-container{
   display: flex;
   justify-content: space-between;
