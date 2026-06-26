@@ -204,6 +204,11 @@
   left: 550px;
 }
 
+.premium-link{
+  background-color: transparent;
+  border: none;
+}
+
 .premium-modal{
    border-radius: 10px;
   border: 1px solid black;
