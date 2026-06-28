@@ -265,7 +265,12 @@ function Navbar() {
             <button>Try 1 month premium for 0</button>
             <p>Vaibhav and millions of other members use Premium</p>
              
-            <p>1-month free trial. Easy to cancel. We’ll remind you 7 days before your trial ends.</p>
+             <div className="one-month-para">
+               <p >1-month free trial. Easy to cancel.</p>
+            <p>We’ll remind you 7 days before your trial ends.</p>
+
+             </div>
+           
             
           </div>
         )

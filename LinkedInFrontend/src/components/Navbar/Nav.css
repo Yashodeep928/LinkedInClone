@@ -210,9 +210,9 @@
 }
 
 .premium-modal{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 15px; */
   padding: 15px;
    border-radius: 10px;
   border: 1px solid black;
@@ -246,6 +246,11 @@
   list-style-type: none;
 }
 
+.one-month-para{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
 
 .my-business-list li {
    display: flex;
