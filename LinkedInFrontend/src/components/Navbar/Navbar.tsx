@@ -115,7 +115,7 @@ function Navbar() {
           </li>
 
           <li>
-            <button onClick={showPremiumModal} className="premium-link">
+            <button type="button" onClick={showPremiumModal} className="premium-link">
               Try Premium for ₹0
             </button>
           </li>
@@ -244,13 +244,9 @@ function Navbar() {
           <li>Admin Center <span>Manage Billing and Account Details</span></li>
           </ul>
          </div>
-
           </div>
         </div> 
       }
-
-
-
 
       {
         premiumModal && (
