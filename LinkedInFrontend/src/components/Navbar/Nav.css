@@ -224,9 +224,12 @@
   left: 550px;
   max-height: 495px;
 }
-.premium-modal li {
-  list-style: none;
+.premium-modal li::marker {
+  content: "✓ ";
+  color: orange;
+  
 }
+
 .premium-modal-header{
   display: flex;
   justify-content: space-between;
