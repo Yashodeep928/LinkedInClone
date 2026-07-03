@@ -253,7 +253,7 @@ function Navbar() {
           <div className="premium-modal">
             <div className="premium-modal-header">
               <h4>Yashodeep, Job search smarter</h4>
-            <button type="button">X</button>
+            <button onClick={() => setPremiumModal(false)} type="button">X</button>
 
             </div>
             
@@ -266,11 +266,11 @@ function Navbar() {
             <button className="one-month-button">Try 1 month premium for 0</button>
             <p>Vaibhav and millions of other members use Premium</p>
              
-             {/* <div className="one-month-para">
+             <div className="one-month-para">
                <p >1-month free trial. Easy to cancel.</p>
             <p>We’ll remind you 7 days before your trial ends.</p>
 
-             </div> */}
+             </div>
            
             
           </div>
