@@ -8,6 +8,18 @@ function profile() {
 
         <div className="profile-summary">
 
+          <img className="banner" src="Banner" alt="my banner image" />
+          <img className="profile-pic" src="ProfilePic" alt="my profile picture"/>
+
+
+          
+
+
+
+
+
+
+
         </div>
 
         <div className="profile-about">
