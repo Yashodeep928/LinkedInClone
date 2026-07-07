@@ -12,6 +12,16 @@ function profile() {
           <img className="profile-pic" src="ProfilePic" alt="my profile picture"/>
 
 
+          <div className="profile-title">
+            <h3>Yashodeep Deshpande</h3>
+             <p>Full Stack Developer | Building scalable web applications for businesses | Responsive UIs, API integration custom      components | Next.js typescript GoLang Chhatrapati Sambhajinagar, Maharashtra, IndiaContact info</p>
+
+             <button>M.G.M's Jawaharlal Nehru College of Engineering</button>
+          </div>
+
+          
+
+
           
 
 
