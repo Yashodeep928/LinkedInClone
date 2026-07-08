@@ -19,6 +19,19 @@ function profile() {
              <button>M.G.M's Jawaharlal Nehru College of Engineering</button>
           </div>
 
+          <div className="profile-details">
+            <div className="btn-group">
+              <button>Open to</button>
+              <button>Add Section</button>
+              <button>Enhance Profile</button>
+              <button>---</button>
+            </div>
+
+            <div className="details-carousel">
+              
+            </div>
+          </div>
+
           
 
 
