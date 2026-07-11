@@ -33,6 +33,12 @@ function profile() {
               <div className="card"></div>
               <div className="card"></div>
             </div>
+             <div className="profile-carousel">
+              <div className="card"></div>
+              <div className="card"></div>
+              <div className="card"></div>
+              <div className="card"></div>
+            </div>
 
 
           </div>
