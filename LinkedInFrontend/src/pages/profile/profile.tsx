@@ -11,6 +11,8 @@ function profile() {
           <img className="banner" src="Banner" alt="my banner image" />
           <img className="profile-pic" src="ProfilePic" alt="my profile picture"/>
 
+          <button type="button">Edit</button>
+
 
           <div className="profile-title">
             <h3>Yashodeep Deshpande</h3>
@@ -28,32 +30,25 @@ function profile() {
 
 
             <div className="profile-carousel">
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
-            </div>
-             <div className="profile-carousel">
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
-            </div>
 
+              <button>Prev</button>
 
+               <div className="card"></div>
+               <div className="card"></div>
+               <div className="card"></div>
+               <div className="card"></div>
+
+              <button>Next</button>
+
+            </div>
+             
           </div>
 
-          
+        </div>
 
-
-          
-
-
-
-
-
-
-
+        <div className="profile-analytics">
+          <h3>Analytics</h3>
+          <button>Show All</button>
         </div>
 
         <div className="profile-about">
@@ -61,7 +56,32 @@ function profile() {
         </div>
 
         <div className="profile-activity">
+
+
+          <div className="activity-header">
+
+            <div className="activity-header-info">
+              <h2>Activity</h2>
+              <button>526 follwers</button>
+              <button>Post</button>
+              <button>Comments</button>
+              <button>Videos</button>
+              <button>Images</button>
+
+            </div>
+            
+
+            <div className="activity-btn-group">
+                <button>Create Post</button>
+                <button>Edit</button>
+            </div>
           
+          </div>
+          
+        </div>
+
+        <div className="profile-experince">
+
         </div>
 
       </div>
