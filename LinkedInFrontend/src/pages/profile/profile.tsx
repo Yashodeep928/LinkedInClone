@@ -1,4 +1,4 @@
-
+import { Pencil } from "lucide-react"
 function profile() {
   return (
     <>
@@ -81,6 +81,29 @@ function profile() {
         </div>
 
         <div className="profile-experince">
+
+          <div className="experince-section-header">
+
+            <h3>Experince</h3>
+
+            <div className="experince-btn-group">
+              <button>+</button>
+              <button><Pencil/></button>
+            </div>
+
+            <div className="experince-details">
+              <img src="" alt="" />
+              <div className="experince-profile-details">
+                <h3>Software Enginner</h3>
+                <p>
+                  Bharat Software Labs · Full-time Jun 2026 - Present · 2 mos   Aurangabad,  Maharashtra, India · On-site
+                  Front-End Development and Software Infrastructure
+                </p>
+              </div>
+            </div>
+
+
+          </div>
 
         </div>
 
