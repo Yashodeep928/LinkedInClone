@@ -120,6 +120,10 @@ function profile() {
 
         </div>
 
+        <div className="profile-projects">
+          
+        </div>
+
       </div>
 
       <div className="profile-right">
