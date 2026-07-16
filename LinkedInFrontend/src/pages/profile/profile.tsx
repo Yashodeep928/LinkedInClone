@@ -124,6 +124,10 @@ function profile() {
           
         </div>
 
+        <div className="profile-skills">
+          
+        </div>
+
       </div>
 
       <div className="profile-right">
