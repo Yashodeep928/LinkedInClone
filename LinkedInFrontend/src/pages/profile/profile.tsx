@@ -139,6 +139,14 @@ function profile() {
         
       </div>
 
+      <div className="profile-interest">
+        
+      </div>
+
+      <div className="profile-interest">
+        
+      </div>
+
     </div>
     
 
