@@ -1,0 +1,43 @@
+.profile-title{
+    background-color: white;
+    border-radius: 12px;
+}
+
+
+
+.profile-analytics{
+    background-color: white;
+    border-radius: 12px ;
+    width: 500px;
+}
+
+.profile-about{
+     background-color: white;
+         width: 500px;
+         border-radius: 12px ;
+
+}
+
+.profile-activity{
+    background-color: white;
+    width: 500px;
+    border-radius: 12px ;
+
+}
+
+.profile-carousel{
+     /* background-color: white; */
+     width: 500px;
+     border-radius: 12px ;
+
+}
+
+.profile-experince{
+    background-color: white;
+    border-radius: 12px;
+}
+
+.profile-education{
+    background-color: white;
+    border-radius: 12px;
+}

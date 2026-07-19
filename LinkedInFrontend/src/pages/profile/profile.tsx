@@ -1,4 +1,5 @@
 import { Pencil } from "lucide-react"
+import "./profile.css"
 function profile() {
   return (
     <>
@@ -128,6 +129,12 @@ function profile() {
           
         </div>
 
+        <div className="profile-interest">
+        
+      </div>
+
+     
+
       </div>
 
       <div className="profile-right">
@@ -135,17 +142,9 @@ function profile() {
       </div>
 
 
-      <div className="profile-interest">
-        
-      </div>
+      
 
-      <div className="profile-interest">
-        
-      </div>
-
-      <div className="profile-interest">
-        
-      </div>
+     
 
     </div>
     
