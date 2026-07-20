@@ -1,9 +1,26 @@
+
+.profile-section{
+    display: flex;
+}
+
+.profile-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .profile-title{
     background-color: white;
     border-radius: 12px;
 }
 
+.profile-summary{
+    background-color: white;
+}
 
+.profile-about{
+    background-color: white;
+}
 
 .profile-analytics{
     background-color: white;
@@ -13,8 +30,8 @@
 
 .profile-about{
      background-color: white;
-         width: 500px;
-         border-radius: 12px ;
+     width: 500px;
+     border-radius: 12px ;
 
 }
 
@@ -26,7 +43,9 @@
 }
 
 .profile-carousel{
-     /* background-color: white; */
+     background-color: white;
+     display: flex;
+     gap: 5px;
      width: 500px;
      border-radius: 12px ;
 
@@ -41,3 +60,16 @@
     background-color: white;
     border-radius: 12px;
 }
+
+.profile-projects{
+    background-color: white;
+}
+
+.profile-skills{
+    background-color: white;
+}
+
+.profile-interest{
+    background-color: white;
+}
+

@@ -53,6 +53,7 @@ function profile() {
         </div>
 
         <div className="profile-about">
+          <h3>About</h3>
 
         </div>
 
@@ -122,14 +123,17 @@ function profile() {
         </div>
 
         <div className="profile-projects">
+          <h3>Projects</h3>
           
         </div>
 
         <div className="profile-skills">
+          <h3>Skills</h3>
           
         </div>
 
         <div className="profile-interest">
+          <h3>Interest</h3>
         
       </div>
 
