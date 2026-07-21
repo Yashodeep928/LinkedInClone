@@ -9,8 +9,8 @@ function profile() {
 
         <div className="profile-summary">
 
-          <img className="banner" src="Banner" alt="my banner image" />
-          <img className="profile-pic" src="ProfilePic" alt="my profile picture"/>
+          <img className="profile-banner" src="/src/assets/linkedinbanner.jpg" alt="my banner image" />
+          <img className="profile-pic" src="/src/assets/Yashodeep.JPG" alt="my profile picture"/>
 
           <button type="button">Edit</button>
 
