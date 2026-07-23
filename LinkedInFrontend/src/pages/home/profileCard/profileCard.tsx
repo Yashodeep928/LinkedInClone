@@ -26,8 +26,7 @@ function ProfileCard (){
             </Link>
 
              <button className='profile-card-btn'>+ Experience</button>
-             <button className='profile-card-btn'>+ Experience</button>
-             <button className='profile-card-btn'>+ Experience</button>
+            
 
 
         </div>

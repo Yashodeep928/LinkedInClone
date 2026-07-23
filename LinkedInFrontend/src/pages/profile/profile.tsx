@@ -134,6 +134,20 @@ function profile() {
 
         <div className="profile-interest">
           <h3>Interest</h3>
+          <button>Top Voices</button>
+          <button>Companies</button>
+          <button>Groups</button>
+          <button>News Letter</button>
+          <button>Schools</button>
+
+          <div className="Interest-cards">
+            <div className="card">
+              <img src="" alt="" />
+              <h4>Sundar Pichai</h4>
+              <p>CEO at Google</p>
+            </div>
+          </div>
+          <button>Show All</button>
         
       </div>
 
