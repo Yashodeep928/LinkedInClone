@@ -92,6 +92,28 @@
 }
 
 .profile-interest{
+  
     background-color: white;
+}
+
+.Interest-cards {
+    padding: 15px;
+    border: 1px solid red;
+    width: 500px;
+}
+
+.interest-card{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.interest-card img {
+    height: 20px;
+    width: 20px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
 }
 

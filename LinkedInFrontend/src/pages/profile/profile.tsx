@@ -141,10 +141,15 @@ function profile() {
           <button>Schools</button>
 
           <div className="Interest-cards">
-            <div className="card">
-              <img src="" alt="" />
-              <h4>Sundar Pichai</h4>
-              <p>CEO at Google</p>
+            <div className="interest-card">
+              <img src="/src/assets/Yashodeep.JPG" alt="" />
+              <div className="card-info">
+
+                 <h4>Sundar Pichai</h4>
+                 <p>CEO at Google</p>
+
+              </div>
+             
             </div>
           </div>
           <button>Show All</button>
