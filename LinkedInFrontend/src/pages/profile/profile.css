@@ -92,14 +92,15 @@
 }
 
 .profile-interest{
-  
+    padding: 5px;
+    width: 500px;
     background-color: white;
 }
 
 .Interest-cards {
     padding: 15px;
-    border: 1px solid red;
-    width: 500px;
+    /* border: 1px solid red; */
+    
 }
 
 .interest-card{
@@ -115,5 +116,20 @@
 .card-info{
     display: flex;
     flex-direction: column;
+}
+
+.interest-btn{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.interest-btn button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+.interest-btn button:hover{
+    background-color: rgb(234, 229, 229);
 }
 

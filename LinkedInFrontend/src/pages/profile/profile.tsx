@@ -133,6 +133,7 @@ function profile() {
         </div>
 
         <div className="profile-interest">
+
           <h3>Interest</h3>
           <button>Top Voices</button>
           <button>Companies</button>
@@ -141,6 +142,7 @@ function profile() {
           <button>Schools</button>
 
           <div className="Interest-cards">
+
             <div className="interest-card">
               <img src="/src/assets/Yashodeep.JPG" alt="" />
               <div className="card-info">
@@ -152,7 +154,11 @@ function profile() {
              
             </div>
           </div>
-          <button>Show All</button>
+
+          <div className="interest-btn">
+             <button>Show All </button>
+          </div>
+         
         
       </div>
 
@@ -163,11 +169,6 @@ function profile() {
       <div className="profile-right">
 
       </div>
-
-
-      
-
-     
 
     </div>
     
