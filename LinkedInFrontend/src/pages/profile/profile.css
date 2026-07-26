@@ -92,7 +92,10 @@
 }
 
 .profile-interest{
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* padding: 5px; */
     width: 500px;
     background-color: white;
 }
@@ -131,5 +134,16 @@
 }
 .interest-btn button:hover{
     background-color: rgb(234, 229, 229);
+}
+
+.profile-interest-btns{
+    display: flex;
+    gap: 5px;
+}
+
+.profile-interest-btns button{
+    font-size: medium;
+    background-color: transparent;
+    border: none;
 }
 

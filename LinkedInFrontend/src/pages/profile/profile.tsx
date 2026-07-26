@@ -135,11 +135,17 @@ function profile() {
         <div className="profile-interest">
 
           <h3>Interest</h3>
-          <button>Top Voices</button>
+          
+          <div className="profile-interest-btns">
+
+            <button>Top Voices</button>
           <button>Companies</button>
           <button>Groups</button>
           <button>News Letter</button>
           <button>Schools</button>
+
+          </div>
+          
 
           <div className="Interest-cards">
 
