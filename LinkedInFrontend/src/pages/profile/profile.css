@@ -147,3 +147,25 @@
     border: none;
 }
 
+.experience-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-skills{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-btn-group{
+    display: flex;
+    gap: 10px;
+}
+.skills-btn-group button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
+

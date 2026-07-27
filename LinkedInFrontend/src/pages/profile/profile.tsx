@@ -17,7 +17,7 @@ function profile() {
 
           <div className="profile-title">
             <h3>Yashodeep Deshpande</h3>
-             <p>Full Stack Developer | Building scalable web applications for businesses | Responsive UIs, API integration custom      components | Next.js typescript GoLang Chhatrapati Sambhajinagar, Maharashtra, IndiaContact info</p>
+             <p>Full Stack Developer | Building scalable web applications for businesses | Responsive UIs, API integration custom  components | Next.js typescript GoLang Chhatrapati Sambhajinagar, Maharashtra, IndiaContact info</p>
 
              <button>M.G.M's Jawaharlal Nehru College of Engineering</button>
           </div>
@@ -90,7 +90,7 @@ function profile() {
 
             <div className="experince-btn-group">
               <button>+</button>
-              <button><Pencil/></button>
+              <button><Pencil size={10}/></button>
             </div>
 
             <div className="experince-details">
@@ -129,6 +129,35 @@ function profile() {
 
         <div className="profile-skills">
           <h3>Skills</h3>
+          <div className="skills-btn-group">
+              <button>+</button>
+              <button><Pencil/></button>
+            </div>
+
+            <section className="experience-section">
+
+     <div className="experience-list">
+
+  
+       <article className="experience-item">
+        <h3 className="industry-name">Software Industry</h3>
+
+        <div className="job-details">
+         <img
+          src="software-engineer.jpg"
+          alt="Software Engineer"
+          className="job-image"
+        />
+
+        <p className="job-title">
+          Software Engineer at ABC
+        </p>
+      </div>
+      </article>
+      </div>
+
+    </section>
+    
           
         </div>
 
@@ -138,7 +167,7 @@ function profile() {
           
           <div className="profile-interest-btns">
 
-            <button>Top Voices</button>
+          <button>Top Voices</button>
           <button>Companies</button>
           <button>Groups</button>
           <button>News Letter</button>
