@@ -128,24 +128,28 @@ function profile() {
         </div>
 
         <div className="profile-skills">
-          <h3>Skills</h3>
+          <div className="profile-skills-header-section">
+             <h3>Skills</h3>
+
           <div className="skills-btn-group">
               <button>+</button>
               <button><Pencil/></button>
             </div>
 
+          </div>
+         
+
             <section className="experience-section">
 
-     <div className="experience-list">
+            <div className="experience-list">
 
   
        <article className="experience-item">
         <h3 className="industry-name">Software Industry</h3>
 
-        <div className="job-details">
+        <div className="profile-skills-job-details">
          <img
           src="software-engineer.jpg"
-          alt="Software Engineer"
           className="job-image"
         />
 

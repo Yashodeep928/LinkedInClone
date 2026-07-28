@@ -156,7 +156,24 @@
 .profile-skills{
     padding: 15px;
     display: flex;
+    flex-direction: column;
+}
+
+.profile-skills-header-section{
+    display: flex; 
     justify-content: space-between;
+}
+
+.profile-skills-job-details{
+    display: flex;
+    gap: 8px;
+}
+
+
+.experience-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .skills-btn-group{
