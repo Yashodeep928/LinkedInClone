@@ -152,6 +152,31 @@
     flex-direction: column;
 }
 
+.profile-projects{
+     padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-projects-header-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-btn-group{
+    display: flex;
+    gap: 10px;
+
+}
+
+.projects-btn-group button{
+     background-color: transparent;
+    border: none;
+    font-size: 30px;
+    
+}
+
 
 .profile-skills{
     padding: 15px;

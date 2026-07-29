@@ -123,7 +123,15 @@ function profile() {
         </div>
 
         <div className="profile-projects">
-          <h3>Projects</h3>
+         <div className="profile-projects-header-section">
+             <h3>Projects</h3>
+
+          <div className="projects-btn-group">
+              <button>+</button>
+              <button><Pencil/></button>
+            </div>
+
+          </div>
           
         </div>
 
