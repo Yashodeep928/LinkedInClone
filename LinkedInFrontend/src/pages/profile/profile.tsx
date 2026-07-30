@@ -132,6 +132,11 @@ function profile() {
             </div>
 
           </div>
+
+          <div className="profile-projects-description-section">
+            <h3>SqftMarket.com</h3>
+            <p>Sqft Market is a Modern Real Estate Platform a product from Bharat Software Labs</p>
+          </div>
           
         </div>
 
@@ -145,6 +150,8 @@ function profile() {
             </div>
 
           </div>
+
+          
          
 
             <section className="experience-section">
