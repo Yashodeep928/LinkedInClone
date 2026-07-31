@@ -158,6 +158,28 @@
     flex-direction: column;
 }
 
+.profile-education{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-education-header-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-btn-grp{
+    display: flex;
+    gap: 10px;
+}
+
+.education-btn-grp button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
+
 
 .profile-projects-header-section{
     display: flex;

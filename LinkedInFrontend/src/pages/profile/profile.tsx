@@ -112,13 +112,23 @@ function profile() {
 
 
         <div className="profile-education">
-             <div className="profile-education-details">
+
+            <div className="profile-education-header-details">
+
                <h3>Education</h3>
-                <div className="university">
+
+                <div className="education-btn-group">
+                    <button>+</button>
+                    <button><Pencil/></button>
+                </div>
+
+            </div>
+
+
+            <div className="university">
                   <img src="" alt="" />
                   <p>M.G.M's Jawaharlal Nehru College of Engineering,Master of Computer Applications - MCA</p>
-                </div>
-             </div>
+            </div>
 
         </div>
 
