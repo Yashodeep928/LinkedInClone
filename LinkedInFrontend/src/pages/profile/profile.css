@@ -74,6 +74,7 @@
 }
 
 .profile-experince{
+    padding:15px;
     background-color: white;
     border-radius: 12px;
 }
@@ -95,8 +96,9 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    /* padding: 5px; */
+    padding: 5px;
     width: 500px;
+    border-radius:12px;
     background-color: white;
 }
 
@@ -148,8 +150,24 @@
 }
 
 .experience-section{
+    padding:15px;
     display: flex;
     flex-direction: column;
+}
+
+.experince-section-header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.experince-btn-group{
+    display:flex;
+    gap:10px;
+}
+.experince-btn-group button{
+    background-color: transparent;
+    border:none;
+    font-size: 30px;
 }
 
 .profile-projects{
@@ -169,15 +187,15 @@
     justify-content: space-between;
 }
 
-.education-btn-grp{
+.education-btn-group{
     display: flex;
     gap: 10px;
 }
 
-.education-btn-grp button{
-    background-color: transparent;
+.education-btn-group button{
+   background-color: transparent;
     border: none;
-    font-size: 30px;
+   font-size: 30px;  
 }
 
 
@@ -195,8 +213,7 @@
 .projects-btn-group button{
      background-color: transparent;
     border: none;
-    font-size: 30px;
-    
+    font-size: 30px;  
 }
 
 

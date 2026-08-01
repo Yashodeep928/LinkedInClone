@@ -90,8 +90,9 @@ function profile() {
 
             <div className="experince-btn-group">
               <button>+</button>
-              <button><Pencil size={10}/></button>
+              <button><Pencil/></button>
             </div>
+          </div>
 
             <div className="experince-details">
               <img src="" alt="" />
@@ -105,7 +106,6 @@ function profile() {
             </div>
 
 
-          </div>
 
         </div>
 
