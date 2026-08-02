@@ -69,8 +69,14 @@
      display: flex;
      gap: 5px;
      width: 500px;
-     border-radius: 12px ;
+     border-radius: 12px;
 
+}
+
+.activity-header-info{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
 }
 
 .profile-experince{
