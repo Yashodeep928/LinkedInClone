@@ -63,12 +63,19 @@ function profile() {
           <div className="activity-header">
 
             <div className="activity-header-info">
+
               <h2>Activity</h2>
               <button>526 follwers</button>
-              <button>Post</button>
-              <button>Comments</button>
-              <button>Videos</button>
-              <button>Images</button>
+
+              <div className="activity-header-info-btn-group">
+                
+                <button>Post</button>
+                <button>Comments</button>
+                <button>Videos</button>
+                <button>Images</button>
+
+              </div>
+              
 
             </div>
             
